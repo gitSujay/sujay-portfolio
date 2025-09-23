@@ -6,7 +6,7 @@ $(document).ready(function () {
 		cors: true,
 		secure: true,
 		headers: {
-			'Access-Control-Allow-Origin': '*',
+			'Access-Control-Allow-Origin': '*', 
 		},
 		headers: { Accept: 'application/json' },
 		beforeSend: function (xhr) {

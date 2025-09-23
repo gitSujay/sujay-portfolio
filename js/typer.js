@@ -11,7 +11,7 @@ var Typer = function(element) {
     this.progress = { word: 0, char: 0, building: true, looped: 0 };
     this.typing = true;
   
-    var colors = element.dataset.colors || "black";
+    var colors = element.dataset.colors || "black"; 
     this.colors = colors.split(",");
     this.element.style.color = this.colors[0];
     this.colorIndex = 0;
