@@ -21,9 +21,12 @@ h1,h2,h3,h4,h5,h6{font-family: 'Philosopher', sans-serif; font-weight: 700;}
 .h6, h6 { font-size: 1.25rem;}
 p{margin-bottom: 16px;}
 .btn{padding: 18px 32px; font-size: 22px;font-weight: 600;border-radius: 40px;margin-bottom: 26px; display: inline-block;}
+.img-responsive{max-width: 100%;}
 
 /*************grid css*********************/
-.row{display: flex; flex-direction: row;}
+.row{display: flex; flex-direction: row; align-items: center;}
+.sec-row{display: none; flex-direction: row; align-items: center;}
+.sec-row.show-details{display: flex;}
 .col-12{width: 100%;}
 .col-lg-6{width: 60%;}
 .col-lg-5{width: 50%;}
@@ -31,14 +34,23 @@ p{margin-bottom: 16px;}
  
 
 
-
+/************base css***********************/
 .wrapper{display: flex; flex-direction: row;height: 100vh; width: 100%; overflow: hidden;}
 aside{width: 300px; flex: none;}
 main{width: 100%; padding: 40px;}
+.dp{text-align: center; margin-top: 24px; margin-bottom: 20px;}
+.img-dp{width: 116px; height: 116px; object-fit: cover; object-position: top; border-radius: 50%; border: 3px solid;}
+.nav-list{list-style: none;border-top: 1px solid;}
+.nav-list a{display: block; padding: 12px 32px; border-bottom: 1px solid; text-decoration: none; font-weight: 300; opacity: .6;}
+.nav-list a.active{opacity: 1;font-weight: 500;}
 
-/************base css***********************/
+
 .heading{ font-size: 52px; margin-bottom: 24px;}
 .typeing-text{ font-size: 24px; font-weight: 300;}
+.img-hero{text-align: center; border: 8px solid; border-radius: 50% 50% 0 0; padding: 70px 40px 0 40px; background-color: var(--light-black-color);
+    max-width: 460px; margin: auto;}
+.img-hero img{display: block;}
+
 
 
 /*************black theme************************/
@@ -46,6 +58,7 @@ main{width: 100%; padding: 40px;}
 .black aside{background-color: var(--light-black-color);}
 .black .btn-color{background-color: var(--red-color); color: var(--white-color);}
 .black .btn-color:hover{color: var(--red-color); background-color: var(--white-color);}
+.black .nav-list a{color: var(--white-color);}
 
 
 /*************txt red************************/
