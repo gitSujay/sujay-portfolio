@@ -1,3 +1,4 @@
+
 $(window).scroll(function () {
   var scroll = $(window).scrollTop();
 
@@ -8,85 +9,86 @@ $(window).scroll(function () {
   }
 });
 
-$(document).ready(function () {
-  $('.usesFor').owlCarousel({
-    items: 6,
-    loop: true,
-    margin: 30,
-    autoplay: true,
-    autoplayTimeout: 1200,
-    autoWidth: false,
-    autoplayHoverPause: false,
-    nav: false,
-    dots:false,
-    responsive: {
-      0: {
-        items: 2
-      },
-      600: {
-        items: 3
-      },
-      1000: {
-        items: 6
+/*
+
+/******************Tab Menu********************************** 
+document.addEventListener("DOMContentLoaded", () => {
+  let chooseMenuLnk = document.getElementsByClassName("menu-link");
+
+  // Map stickerBox to bundle item in cart
+  const itemMap = {
+    "lnkHome": "home",
+    "lnkAbout": "about",
+    "lnkService": "services",
+    "lnkPortfolio": "portfolio",
+    "lnkContact": "contact"
+  };
+
+  document.getElementById("home").classList.add("show-details");
+
+  // 🔹 Sticker bundle select
+  for (let i = 0; i < chooseMenuLnk.length; i++) {
+    chooseMenuLnk[i].addEventListener("click", function () {
+      if (this.classList.contains("active")) return;
+
+      // Remove selection
+      for (let j = 0; j < chooseMenuLnk.length; j++) {
+        chooseMenuLnk[j].classList.remove("show-details");
       }
-    }
-  });
+     ["home", "about", "services", "portfolio", "contact"].forEach(id => {
+      document.getElementById(id).classList.remove("show-details");
+    });
 
-  $('.satisfied-customers').owlCarousel({
-    items: 5,
-    loop: true,
-    margin: 20,
-    autoplay: true,
-    autoplayTimeout: 1800,
-    autoWidth: true,
-    autoplayHoverPause: false,
-    nav: true,
-    dots:false,
-    navText:["<div class='nav-btn prev-slide bi bi-arrow-left-short'></div>","<div class='nav-btn next-slide bi bi-arrow-right-short'></div>"], 
-    responsive: {
-      0: {
-        items: 1
-      },
-      600: {
-        items: 3
-      },
-      1000: {
-        items: 5
+      // Add selection
+      this.classList.add("active");
+      let targetId = itemMap[this.id];
+      if (targetId) {
+        document.getElementById(targetId).classList.add("show-details");
       }
-    }
-  });
+     
+    });
+  }
+});  
+*/
 
-  $('.feedback').owlCarousel({
-    items: 1,
-    loop:true,
-    margin:60,
-    nav:true,
-    autoplay: true,
-    dots:false,
-    navText:["<div class='nav-btn prev-slide bi bi-arrow-left-short'></div>","<div class='nav-btn next-slide bi bi-arrow-right-short'></div>"], 
-    // responsive:{
-    //     0:{
-    //         items:1
-    //     },
-    //     991:{
-    //         items:2
-    //     }
-    // }
-})
 
-$('.navbar-toggler').click(function(){
-    $(this).toggleClass("swing");
-});
+document.addEventListener("DOMContentLoaded", () => {
+  const chooseMenuLnk = document.getElementsByClassName("menu-link");
 
-})
+  // Map menu link IDs to section IDs
+  const itemMap = {
+    "lnkHome": "home",
+    "lnkAbout": "about",
+    "lnkService": "services",
+    "lnkPortfolio": "portfolio",
+    "lnkContact": "contact"
+  };
 
-$(window).scroll(function () {
-  var scroll = $(window).scrollTop();
+  // Show home section by default
+  document.getElementById("home").classList.add("show-details");
+  document.getElementById("lnkHome").classList.add("active");
 
-  if (scroll >= 600) {
-    $(".back-to-top").addClass("show");
-  } else {
-    $(".back-to-top").removeClass("show");
+  for (let i = 0; i < chooseMenuLnk.length; i++) {
+    chooseMenuLnk[i].addEventListener("click", function () {
+      if (this.classList.contains("active")) return;
+
+      // 🔹 Remove active class from all links
+      for (let j = 0; j < chooseMenuLnk.length; j++) {
+        chooseMenuLnk[j].classList.remove("active");
+      }
+
+      // 🔹 Hide all sections
+      ["home", "about", "services", "portfolio", "contact"].forEach(id => {
+        document.getElementById(id).classList.remove("show-details");
+      });
+
+      // 🔹 Add active to current menu and show corresponding section
+      this.classList.add("active");
+      const targetId = itemMap[this.id];
+      if (targetId) {
+        document.getElementById(targetId).classList.add("show-details");
+      }
+    });
   }
 });
 
