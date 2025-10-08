@@ -20,22 +20,24 @@ body{ font-family: 'Noto Sans Display', sans-serif; font-size: 18px; font-weight
 h1,h2,h3,h4,h5,h6{font-family: 'Philosopher', sans-serif; font-weight: 700;}
 .h6, h6 { font-size: 1.25rem;}
 p{margin-bottom: 16px;}
-.btn{padding: 18px 32px; font-size: 22px;font-weight: 600;border-radius: 40px;margin-bottom: 26px; display: inline-block;}
+.btn{padding: 18px 32px; font-size: 22px;font-weight: 600;border-radius: 40px;margin-bottom: 26px; display: inline-block; border: none;}
 .img-responsive{max-width: 100%;}
 .text-right{text-align: right;}
 .text-center{text-align: center;}
+.link-text{text-decoration: none;}
 
 /*************grid css*********************/
 .row{display: flex; flex-direction: row; align-items: center; flex-wrap: wrap;}
 .sec-row{display: none; flex-direction: row; align-items: center;}
 .sec-row.show-details{display: flex;}
-.skills-row{display: flex; flex-direction: row; align-items: center; flex-wrap: wrap; margin-bottom: 24px;}
+.skills-row{display: flex; flex-direction: row; align-items: center; flex-wrap: wrap; margin-bottom: 24px; justify-content: space-between;}
 .col-12{width: 100%;}
 .col-lg-6{width: 60%;}
 .col-lg-5{width: 50%;}
 .col-lg-4 {width: 40%;}
+.col-lg-3 {width: 25%;}
 
-.three-grid-row{display: flex; width: 100%; gap: 40px;margin-top: 40px; margin-bottom: 40px; flex-wrap: wrap;}
+.three-grid-row, .four-grid-row{display: flex; width: 100%; gap: 40px;margin-top: 40px; margin-bottom: 40px; flex-wrap: wrap;}
 .three-grid-row .col{width: 28.6%;}
  
 
@@ -55,6 +57,8 @@ main{width: 100%; padding: 40px; overflow-y: auto;}
 .heading-2{font-size: 52px; margin-bottom: 54px; position: relative;}
 .heading-2::before{content: ''; position: absolute; width: 150px; height: 4px; bottom: -6px;}
 .heading-2::after{content: ''; position: absolute; width: 120px; height: 4px; bottom: -16px; left:0 ; opacity: .8;}
+.heading-3{ font-size: 42px; margin-bottom: 30px; margin-top: 30px; text-align: center;line-height: 30px;}
+.heading-3 small{font-size: 16px; font-weight: 300;}
 .typeing-text{ font-size: 24px; font-weight: 300;}
 .img-hero{text-align: center; border: 8px solid; border-radius: 50% 50% 0 0; padding: 70px 40px 0 40px; background-color: var(--light-black-color);
     max-width: 460px; margin: auto;}
@@ -72,12 +76,22 @@ main{width: 100%; padding: 40px; overflow-y: auto;}
 .table th{border-bottom: 1px solid; padding: 8px 12px; text-align: left; font-weight: 600;}
 .table td {border-bottom: 1px solid; padding: 8px;}
 
+.skills-row .col{width: auto;}
 .skills-row p{margin-bottom: 8px;}
 .progressbar{ width: 100%; height: 4px; background-color: var(--black-color); opacity: .8; position: relative;}
 .progressbar p{margin-bottom: 0;}
 .high{width: 90%; height: 4px; }
 .medium{width: 50%; height: 4px;}
 .list-style-disc{list-style-type: disc;}
+
+.contact-box{padding: 22px; border-radius: 12px; box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2); text-align: center;}
+
+.card{display: flex; flex-wrap: wrap; max-width: 774px; margin: auto; padding: 20px;}
+.card .inline-input{display: inline-flex; width: 100%; gap: 40px;}
+.form-group{position: relative;}
+.input-box{width: 100%; padding: 16px 20px;box-sizing: border-box; font-size: 16px; border-radius: 6px; border: none;}
+.input-box:focus-visible{outline: none;}
+
 
 
 
@@ -91,9 +105,13 @@ main{width: 100%; padding: 40px; overflow-y: auto;}
 .black .nav-list a{color: var(--white-color);}
 .black .heading-2::before{background-color: var(--red-color);}
 .black .heading-2::after{background-color: var(--red-color);}
-.black .box{ background-color: var(--light-black-color); color: var(--white-color);}
+.black .box, 
+.black .contact-box{ background-color: var(--light-black-color); color: var(--white-color);}
 .black .table thead{background-color: var(--white-color); color: var(--light-black-color);}
 .black .high, .black .medium{background-color: var(--white-color);}
+.black .link-text{color:var(--white-color); opacity:.7;}
+.black .link-text:hover{color:var(--red-color); opacity: 1;}
+
 
 /*************txt red************************/
 .black .wrapper{color: var(--white-color);}
