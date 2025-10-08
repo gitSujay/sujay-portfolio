@@ -54,6 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener("DOMContentLoaded", () => {
   const chooseMenuLnk = document.getElementsByClassName("menu-link");
+ 
 
   // Map menu link IDs to section IDs
   const itemMap = {
@@ -61,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "lnkAbout": "about",
     "lnkService": "services",
     "lnkPortfolio": "portfolio",
-    "lnkContact": "contact"
+    "lnkContact": "contact",
   };
 
   // Show home section by default
@@ -91,6 +92,28 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+let about = document.getElementById("about");
+let navLinks = document.querySelectorAll(".nav-list a"); // or ".menu-link" depending on your HTML
+
+function lnkAboutMore() {
+  // 1️⃣ Remove "show-details" from all sections if needed
+  document.querySelectorAll(".show-details").forEach(el => {
+    el.classList.remove("show-details");
+  });
+
+  // 2️⃣ Add "show-details" to the about section
+  about.classList.add("show-details");
+
+  // 3️⃣ Remove "active" from all nav links
+  navLinks.forEach(link => link.classList.remove("active"));
+
+  // 4️⃣ Add "active" to the About link
+  document.getElementById("lnkAbout").classList.add("active");
+}
+
+
+
 
  
 
