@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 48 48">
+  
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <g id="Group_1" data-name="Group 1" transform="translate(-67.799 -97.067)">
+      <path id="Exclusion_1" data-name="Exclusion 1" d="M4.407,8.631A4.426,4.426,0,0,1,1.291,7.367a4.252,4.252,0,0,1,0-6.1,4.474,4.474,0,0,1,6.233,0,4.252,4.252,0,0,1,0,6.1A4.426,4.426,0,0,1,4.407,8.631Zm0-6.113a1.8,1.8,0,1,0,1.836,1.8A1.819,1.819,0,0,0,4.407,2.517Z" transform="matrix(0.259, 0.966, -0.966, 0.259, 76.135, 121.104)" fill="#f4a100"/>
+      <path id="Exclusion_2" data-name="Exclusion 2" d="M4.407,8.631A4.426,4.426,0,0,1,1.291,7.367a4.252,4.252,0,0,1,0-6.1,4.474,4.474,0,0,1,6.233,0,4.252,4.252,0,0,1,0,6.1A4.426,4.426,0,0,1,4.407,8.631Zm0-6.113a1.8,1.8,0,1,0,1.836,1.8A1.819,1.819,0,0,0,4.407,2.517Z" transform="matrix(0.259, 0.966, -0.966, 0.259, 90.776, 110.067)" fill="#f4a100"/>
+      <path id="Exclusion_3" data-name="Exclusion 3" d="M4.315,8.631A4.315,4.315,0,0,1,1.264,1.264a4.315,4.315,0,1,1,6.1,6.1A4.287,4.287,0,0,1,4.315,8.631Zm0-6.113a1.8,1.8,0,1,0,1.8,1.8A1.8,1.8,0,0,0,4.315,2.517Z" transform="matrix(0.259, 0.966, -0.966, 0.259, 101.048, 120.549)" fill="#f4a100"/>
+      <path id="Exclusion_4" data-name="Exclusion 4" d="M4.315,8.631A4.315,4.315,0,0,1,1.264,1.264a4.315,4.315,0,1,1,6.1,6.1A4.287,4.287,0,0,1,4.315,8.631Zm0-6.113a1.8,1.8,0,1,0,1.8,1.8A1.8,1.8,0,0,0,4.315,2.517Z" transform="matrix(0.259, 0.966, -0.966, 0.259, 113.565, 110.721)" fill="#f4a100"/>
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="12.854" height="2.571" transform="translate(74.646 123.451) rotate(-36)" fill="#f4a100"/>
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="9.732" height="2.571" transform="translate(90.626 116.128) rotate(47)" fill="#f4a100"/>
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="8.998" height="2.571" transform="matrix(0.799, -0.602, 0.602, 0.799, 100.663, 122.27)" fill="#f4a100"/>
+    </g>
+  </g>
+</svg>

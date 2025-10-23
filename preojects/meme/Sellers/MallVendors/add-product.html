@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/variable.css">
+    <link rel="stylesheet" href="../../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../../css/style.css">
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="../..//js/jquery-3.6.0.min.js"></script>
+    <script src="../../js/bootstrap.bundle.js"></script>
+    <script src="../../js/fontawsome6.js"></script>
+    <script src="../../js/owl.carousel.min.js"></script>
+    <script src="../../js/Custom.js"></script>
+    <script src="../../js/product-slider.js"></script>
+    <script src="../../js/chart.js"></script>
+
+
+
+    <title>MeMe MeMeYacht sellers</title>
+</head>
+
+<body class="duble-row-header">
+    <!------------------------Header----------------------------->
+    <header>
+        <section class="container">
+            <div class="row justify-content-between align-items-center mx-0">
+                <div class="logo">
+                    <img class="img-fluid" src="../../Images/logo-blue.png">
+                </div>
+                <div class="header-links px-0">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                            <div class="dropdown profile-dropdown">
+                                <a href="#" id="profileDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img class="img-fluid profile-pic bg-light" src="../../Images/avtar2.png">
+                                    <span>
+                                        Martin
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="material-icons">person</span> Account </a>
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="material-icons">nat</span>Log out </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="tel:+2000001402" title=" 91-2000001402">
+                                <i class="fas fa-phone-alt"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item crtLnkHeader">
+                            <a class="position-relative" href="mailto:marketing@memeyacht.com"
+                                title="marketing@memeyacht.com">
+                                <i class="far fa-envelope"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fa fa-language" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item seller-ico-burger">
+                            <button class="navbar-toggler btn-small-nav" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#sellers-header" aria-controls="small-header" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <div class="navbar-toggler-icon">
+                                    <label></label>
+                                    <label class="center-line"></label>
+                                    <label></label>
+                                </div>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+
+        </section>
+
+
+
+        <!------------------------NavBar----------------------------->
+        <nav class="navbar navbar-expand-md seller-nav">
+            <section class="container">
+                <!------------------------Menu----------------------------->
+
+                <!--=================================================================================-->
+                <div class="collapse navbar-collapse" id="sellers-header">
+                    <section class="d-flex">
+                        <ul class="navbar-nav left-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="./mall-dashboard.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./store-list.html">Store </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./product-list.html">Products </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Inventory </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./orders.html">Orders </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Payments</a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+        </nav>
+        <!------------------------NavBar End----------------------------->
+    </header>
+
+
+
+
+    <main class="container mb-5">
+        <!--------------Bread Crumb----------------------->
+        <section class="row">
+            <nav aria-label="breadcrumb " class="position-relative">
+                <ol class="breadcrumb my-3">
+                    <li class="breadcrumb-item"><a href="./mall-dashboard.html">Dashboard</a></li>
+                    <li class="breadcrumb-item"><a href="./store-list.html">Store</a></li>
+                    <li class="breadcrumb-item"><a href="./product-list.html">Products</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Add products</li>
+                </ol>
+            </nav>
+        </section>
+
+        <!--------------------Page Heading------------------------------------------->
+        <div class="row align-items-center">
+            <div class="col">
+                <h4 class="text-theme fw-bold text-center mb-4">Add products</h4>
+            </div>
+        </div>
+        <!--------------------------------->
+
+        <main class="card card-body mb-3 job-filter-container">
+            <form class="row">
+                <div class="col-12 col-md-6">
+                    <div class="mb-3">
+                        <label for="addProductName" class="form-label">Product Name
+                            <em class="text-danger">
+                                <i class="fas fa-asterisk"></i>
+                            </em>
+                        </label>
+                        <input type="text" class="form-control" id="addProductName">
+                      </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="mb-3">
+                        <label for="addCategorytName" class="form-label">Category name
+                            <em class="text-danger">
+                                <i class="fas fa-asterisk"></i>
+                            </em>
+                        </label>                        
+                        <select class="form-select" id="addCategorytName">
+                            <option>Select Category</option>
+                            <option value="1">General Marine</option>
+                            <option value="2">Water sports</option>
+                            <option value="3">Watersports clothing </option>
+                            <option value="4">Fishing </option>
+                            <option value="5">Gear Clothing </option>
+                            <option value="6">Fashion </option>
+                        </select>
+                      </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="mb-3">
+                        <label for="addSubCategorytName" class="form-label">
+                            Sub category name                           
+                        </label>                        
+                        <select class="form-select" id="addSubCategorytName">
+                            <option>Select Subcategory</option>
+                            <option value="1">Anchor & docking </option>
+                            <option value="2">Boats parts</option>
+                            <option value="3">Motors </option>
+                            <option value="4">Electrical </option>
+                            <option value="5">Electronics & navigation</option>
+                            <option value="6">Maintenance & hardware</option>
+                        </select>
+                      </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="mb-3">
+                        <label for="addProductPrice" class="form-label">Product price
+                            <em class="text-danger">
+                                <i class="fas fa-asterisk"></i>
+                            </em>
+                        </label>
+                        <input type="text" class="form-control" id="addProductPrice">
+                      </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p for="addProductPrice" class="form-label">Store
+                        <em class="text-danger">
+                            <i class="fas fa-asterisk"></i>
+                        </em>
+                    </p>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="Local" value="option1">
+                        <label class="form-check-label" for="Local">Local</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="test" value="option2">
+                        <label class="form-check-label" for="test">test</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="TestShop" value="option3">
+                        <label class="form-check-label" for="TestShop">Test shop</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="TestShop2" value="option3">
+                        <label class="form-check-label" for="TestShop2">Test shop 2</label>
+                      </div>
+                </div>
+                <div class="col-12 col-md-6 mb-3">
+                        <label class="form-label" for="description">
+                            Description                            
+                        </label> 
+                        <textarea class="form-control" row="5" id="description"></textarea>                       
+                </div>
+                <div class="col-12">
+                    <p class="form-label">Upload image </p>
+                    <div class="upload-file float-start me-2">
+                        <input type="file" id="formFile">
+                        <span class="material-icons">cloud_upload</span>
+                    </div>
+                    <ul class="list-inline upload-file-thumb">
+                        <li class="list-inline-item">
+                            <img class="img-fluid" src="../../Images/luxury-yacht.jpg">
+                        </li>
+                        <li class="list-inline-item">
+                            <img class="img-fluid" src="../../Images/yacht.jpg">
+                        </li>
+                    </ul>
+                </div>
+            </form>
+            <p class="text-end mb-0">
+                <button class="btn text-danger">Reset</button>
+                <button class="btn btn-theme">Submit</button>
+            </p>
+        </main>
+
+
+    </main>
+
+
+
+
+
+    <!-----------------------Footer----------------->
+    <footer class="bg-theme pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 order-md-last">
+                    <ul class="list-inline ft-social text-md-end">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 order-md-first">
+                    <div class="container text-md-start mb-2 text-end">
+                        © copyright @ MeMeYacht
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!------------------Back to top-------------------->
+    <a id="backTop" href="#" class="gotopbtn">
+        <img class="img-fluid" src="../../Images/anchor-blue.png">
+    </a>
+
+
+</body>
+
+</html>

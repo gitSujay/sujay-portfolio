@@ -1,0 +1,23 @@
+.slip-park {/* display: inline-block; */ width: 100%; min-width: 500px; min-height: 450px; background-color: #d7f0ff; margin-left: 0px;/* border: 1px solid black; padding: 10px; */ }
+
+.slip-block{ margin-top: 0.5rem; /*  width: 20%; height: 426px; padding: 10px; float: left; margin: 2px 25px 2px 25px;*/} 
+.slip-individual { width: 75%; height: 30px; float: left; background-color: var(--bs-danger);  margin: 10px; border-radius: 5px; cursor: pointer;  
+    font-size: 0.7rem; color: var(--white); display: flex; justify-content: center; align-items: center;}
+.slip-different {width: 100%; height: 26px; padding: 2px; float: left; border-right: 1px solid black; border-bottom: 1px solid black; border-top: 1px solid black; background-color: #adb5bd; }
+.slip-space {width: 100%;height: 15px; padding: 2px; float: left; /* background-color: #eff2fc; */ background-color: #9da4bb; }
+.slip-buffer { width: 17%; float: left; height: 388px; /*margin: 10px 0px;*/ border-left: 1px solid black; border-bottom: 1px solid black;  border-top: 1px solid black;
+    background-color: #adb5bd;  }
+.slip-store { width: 80%; float: left; }
+.block-name { position: relative; top: calc(50% - 3px); left: 20%; color: black;  font-weight: bold; display: inline-block; }
+
+
+/*storage park css*/
+.storage-park{width: 100%; min-width: 500px; min-height: 450px; background-color: #d7f0ff; overflow: hidden; margin-left: 0px;}
+.storage-block{transform: rotate(15deg);  transform-origin: 2rem;}
+.storage-buffer{ width: 17%; float: left; height: 388px; background-color: var(--mat-black);}
+.platform{ width: 100%; height: 26px; padding: 2px; float: left; background-color: var(--mat-black); margin-left: -1px;}
+
+
+@media (max-width:991px){
+
+}

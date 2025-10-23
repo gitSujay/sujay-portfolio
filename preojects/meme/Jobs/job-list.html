@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/variable.css">
+  <!-- <link rel="stylesheet" href="./css/custom.css"> -->
+  <link rel="stylesheet" href="../css/style.css">
+
+  <link rel="stylesheet" href="../css/owl.carousel.min.css">
+  <link rel="stylesheet" href="../css/owl.theme.default.css">
+  <link rel="stylesheet" href="../css/magnific-popup.css">
+
+
+  <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+<script src="../js/jquery-3.6.0.min.js"></script>
+<!-- <script src="./js/popper.min.js"></script> -->
+<!-- <script src="./js/bootstrap.min.js"></script> -->
+<script src="../js/bootstrap.bundle.js"></script>
+<script src="../js/Custom.js"></script>
+<script src="../js/owl.carousel.min.js"></script>
+<script src="../js/fontawsome6.js"></script>
+<script src="../js/vanilla-tilt.js"></script>
+<script src="../js/jquery.magnific-popup.min.js"></script>
+<script src="../js/parallax.min.js"></script>
+
+  <title>Memeyacht</title>
+</head>
+
+<body class="single-row-header">
+<!------------------------Header----------------------------->
+<header>
+  <div class="container">
+    <div class="row">
+
+      <!------------------------NavBar----------------------------->
+      <nav class="navbar navbar-expand-lg main-nav jobs-nav">
+          <!------------------------Logo----------------------------->
+          <a class="navbar-brand logo" href="../index.html">
+            <img class="img-fluid" src="../Images/logo-blue.png">
+          </a>
+          <!------------------------Menu Icon----------------------------->
+          <button class="navbar-toggler btn-small-nav" type="button" data-bs-toggle="collapse" data-bs-target="#jobs-header" aria-controls="small-header" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="navbar-toggler-icon">
+              <label></label>
+              <label class="center-line"></label>
+              <label></label>
+            </div>
+          </button>
+          <!--=================================================================================-->
+          <div class="collapse navbar-collapse" id="jobs-header">
+            <section class="d-flex">
+              <ul class="navbar-nav left-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="./job-list.html">Job list</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./applied-job-list.html">Applied job</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./saved-job-list.html">Saved jobs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./profile.html">My profile</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="./creat-account.html">Creat account</a></li> 
+                <li class="nav-item">
+                  <a class="nav-link" href="./career-tips.html">Career tips</a>
+                </li>                    
+                
+                <!-- <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    For employers
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="./employer-login.html">Login</a></li>
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Post a job</a></li>
+                    <li><a class="dropdown-item" href="#">Manage jobs</a></li>
+                    <li><a class="dropdown-item" href="#">Resumes</a></li>                  
+                    <li><a class="dropdown-item" href="#">Logout</a></li>       
+                  </ul>
+                </li>    -->
+                        
+              </ul>
+            </section>
+          </div>
+          <!--=================================================================================-->
+          <!---Right Links-->
+          <div class="form-inline nv-right-menu">
+            <ul class="list-inline mb-0 top-links">
+              <li class="list-inline-item">
+                <div class="dropdown profile-dropdown">
+                <a href="#" id="profileDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img class="img-fluid profile-pic" src="../Images/avtar.jpg">
+                  <span>
+                    Jully
+                  </span>
+                </a>               
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
+                  <li>
+                    <a class="dropdown-item" href="profile.html"> 
+                      <span class="material-icons">person</span> Account </a>
+                     
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="change-password.html"> 
+                      <span class="material-icons ico-key">passkey</span> Change Password </a>                  
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">  
+                      <span class="material-icons">nat</span>Log out </a>
+                  </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="material-icons float-start"> chat_bubble </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                    <span class="material-icons float-start">notifications_active</span>
+                </a>
+              </li>             
+              <li class="list-inline-item">
+                <div class="dropdown language-dropdown">
+                  <a id="language" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-language"></i>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="language">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img src="../Images/english.jpg"> English
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img src="../Images/french.jpg"> French
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img src="../Images/italia.jpg"> italia
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img src="../Images/german.jpg"> German
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img src="../Images/dutch.jpg"> Dutch
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img src="../Images/Swedish.jpg"> Swedish
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img src="../Images/Finnish.jpg"> Finnish
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img src="../Images/denmark.jpg"> Denmark
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img src="../Images/norway.jpg"> Norway
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img src="../Images/spanish.jpg"> Spanish
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img src="../Images/portugal.jpg"> Portugal
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img src="../Images/china.jpg"> Chinese
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <img src="../Images/japan.jpg"> Japanese
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!---Right Links-->
+      </nav>
+    </div>
+  </div>
+</header>
+
+
+
+
+<main class="container">
+    <!--------------Bread Crumb----------------------->
+    <section class="row">
+        <nav aria-label="breadcrumb " class="position-relative">
+            <ol class="breadcrumb my-3">
+              <li class="breadcrumb-item"><a href="./job.html">Job</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Job list</li>
+            </ol>
+        </nav>
+    </section>
+    <!--------------------------------------------------------------->
+    <section class="row">
+      <div class="col-12 col-md-5 col-lg-3">
+        <!--------Btn mobile filter--------->
+          <a href="#" class="btn-filter">
+            <span class="material-icons">  filter_list </span>
+          </a>
+         <!--------Btn mobile filter end--------->
+        <main class="card mb-3 job-filter-container">
+          <!----------Job Search form-->
+          <section class="card-header text-theme fw-bold h5">
+            Find job
+          </section>
+          <section class="card-body">
+            <form >
+              <div class="form-group mb-3">             
+                <input type="text" id="keyWord" class="form-control rounded-pill" placeholder="Key words">
+              </div>
+              <div class="form-group mb-3">             
+                <input type="text" id="locations" class="form-control rounded-pill" placeholder="Locations">
+              </div>
+              <div class="form-group mb-3 text-end">
+                <button class="btn btn-theme rounded-pill px-4">Search</button>
+              </div> 
+            </form>
+          </section>
+
+          <!----------Job Type-->
+          <section class="card-body border-top">
+            <form>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="jobType" id="Full_time">
+                <label class="form-check-label" for="Full_time">
+                  Full time
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="jobType" id="Part_time">
+                <label class="form-check-label" for="Part_time">
+                  Part time
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="jobType" id="Intern_ship">
+                <label class="form-check-label" for="Intern_ship">
+                  Intern ship
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="jobType" id="Temporary">
+                <label class="form-check-label" for="Temporary">
+                  Temporary
+                </label>
+              </div>
+            </form>
+          </section>
+          <!----------Search Pill-->
+          <div class="card-body border-top">
+          <a class="sortpill" id="src_Job_1"> 
+            <span id="category_text">Government</span> 
+            <span class="material-icons dismisPill remove-pill">close</span> 
+          </a>
+
+          <a class="sortpill" id="src_Job_2"> 
+            <span id="category_text">UI designer</span> 
+            <span class="material-icons dismisPill remove-pill">close</span> 
+          </a>
+
+          <a class="sortpill" id="src_Job_3"> 
+            <span id="category_text">UI UX</span> 
+            <span class="material-icons">close</span> 
+          </a>
+
+          <a class="sortpill" id="src_Job_4"> 
+            <span id="category_text">UI devloper</span> 
+            <span class="material-icons">close</span> 
+          </a>
+
+          <a class="sortpill" id="src_Job_5"> 
+            <span id="category_text">Devloper</span> 
+            <span class="material-icons">close</span> 
+          </a>
+
+          <a class="sortpill" id="src_Job_6"> 
+            <span id="category_text">Android devloper</span> 
+            <span class="material-icons">close</span> 
+          </a>
+        </div>
+        </main>
+      </div>
+
+
+
+      <div class="col-12 col-md-7 col-lg-9 mb-5">
+        <h1 class="section-heading mb-3 text-center">Job list</h1>
+
+        <!-- job post 1 -->
+        <main class="card job-card mb-3">
+          <section class="row">
+            <div class="col-3">
+              <img class="img-fluid" src="../Images/logo-blue.png">
+            </div>
+            <div class="col-9">
+              <h6 class="text-theme card-title fw-bold">UI designer</h6>
+
+              <main class="row">
+                <div class="col">
+                  <ul class="list-inline">
+                    <li class="list-inline-item me-3">
+                      MeMe Global Pvt.Ltd       
+                    </li>
+                    <li class="list-inline-item me-3">
+                      <i class="fas fa-map-marker-alt"></i>
+                      Kolkata, West Bengal
+                    </li>
+                    <li class="list-inline-item me-3">
+                      <i class="fas fa-wallet"></i>
+                      25,000 p/m
+                    </li>
+                    <li class="list-inline-item me-3">
+                      <i class="far fa-calendar-alt"></i>
+                      2 years experience 
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-12 col-lg-auto">
+                  <a class="btn btn-more rounded-pill px-4 fw-normal" href="./job-details.html"> View</a>
+                </div>
+                
+              </main>
+            </div>
+          </section>
+        </main>
+
+         <!-- job post 2 -->
+         <main class="card job-card mb-3">
+          <section class="row">
+            <div class="col-3">
+              <img class="img-fluid" src="../Images/logo-blue.png">
+            </div>
+            <div class="col-9">
+              <h6 class="text-theme card-title fw-bold">UI designer</h6>
+
+              <main class="row">
+                <div class="col">
+                  <ul class="list-inline">
+                    <li class="list-inline-item me-3">
+                      MeMe Global Pvt.Ltd       
+                    </li>
+                    <li class="list-inline-item me-3">
+                      <i class="fas fa-map-marker-alt"></i>
+                      Kolkata, West Bengal
+                    </li>
+                    <li class="list-inline-item me-3">
+                      <i class="fas fa-wallet"></i>
+                      25,000 p/m
+                    </li>
+                    <li class="list-inline-item me-3">
+                      <i class="far fa-calendar-alt"></i>
+                      2 years experience 
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-12 col-lg-auto">
+                  <a class="btn btn-more rounded-pill px-4 fw-normal" href="./job-details.html"> View</a>
+                </div>
+                
+              </main>
+            </div>
+          </section>
+        </main>
+
+         <!-- job post 3 -->
+         <main class="card job-card mb-3">
+          <section class="row">
+            <div class="col-3">
+              <img class="img-fluid" src="../Images/logo-blue.png">
+            </div>
+            <div class="col-9">
+              <h6 class="text-theme card-title fw-bold">UI designer</h6>
+
+              <main class="row">
+                <div class="col">
+                  <ul class="list-inline">
+                    <li class="list-inline-item me-3">
+                      MeMe Global Pvt.Ltd       
+                    </li>
+                    <li class="list-inline-item me-3">
+                      <i class="fas fa-map-marker-alt"></i>
+                      Kolkata, West Bengal
+                    </li>
+                    <li class="list-inline-item me-3">
+                      <i class="fas fa-wallet"></i>
+                      25,000 p/m
+                    </li>
+                    <li class="list-inline-item me-3">
+                      <i class="far fa-calendar-alt"></i>                
+                      2 years experience 
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-12 col-lg-auto">
+                  <a class="btn btn-more rounded-pill px-4 fw-normal" href="./job-details.html"> View</a>
+                </div>
+                
+              </main>
+            </div>
+          </section>
+        </main>
+
+         <!-- job post 4 -->
+         <main class="card job-card mb-3">
+          <section class="row">
+            <div class="col-3">
+              <img class="img-fluid" src="../Images/logo-blue.png">
+            </div>
+            <div class="col-9">
+              <h6 class="text-theme card-title fw-bold">UI designer</h6>
+
+              <main class="row">
+                <div class="col">
+                  <ul class="list-inline">
+                    <li class="list-inline-item me-3">
+                      MeMe Global Pvt.Ltd       
+                    </li>
+                    <li class="list-inline-item me-3">
+                      <i class="fas fa-map-marker-alt"></i>
+                      Kolkata, West Bengal
+                    </li>
+                    <li class="list-inline-item me-3">
+                      <i class="fas fa-wallet"></i>
+                      25,000 p/m
+                    </li>
+                    <li class="list-inline-item me-3">
+                      <i class="far fa-calendar-alt"></i>
+                      2 years experience 
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-12 col-lg-auto">
+                  <a class="btn btn-more rounded-pill px-4 fw-normal" href="./job-details.html"> View</a>
+                </div>
+                
+              </main>
+            </div>
+          </section>
+        </main>
+
+         <!-- job post 5 -->
+         <main class="card job-card mb-3">
+          <section class="row">
+            <div class="col-3">
+              <img class="img-fluid" src="../Images/logo-blue.png">
+            </div>
+            <div class="col-9">
+              <h6 class="text-theme card-title fw-bold">UI designer</h6>
+
+              <main class="row">
+                <div class="col">
+                  <ul class="list-inline">
+                    <li class="list-inline-item me-3">
+                      MeMe Global Pvt.Ltd       
+                    </li>
+                    <li class="list-inline-item me-3">
+                      <i class="fas fa-map-marker-alt"></i>
+                      Kolkata, West Bengal
+                    </li>
+                    <li class="list-inline-item me-3">
+                      <i class="fas fa-wallet"></i>
+                      25,000 p/m
+                    </li>
+                    <li class="list-inline-item me-3">
+                      <i class="far fa-calendar-alt"></i>
+                      2 years experience 
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-12 col-lg-auto">
+                  <a class="btn btn-more rounded-pill px-4 fw-normal" href="./job-details.html"> View</a>
+                </div>
+                
+              </main>
+            </div>
+          </section>
+        </main>
+       
+      </div>
+    </section>
+
+</main>
+
+<!--------------------------------------------------------------->
+
+
+
+
+
+  <!-----------------------Footer----------------->
+  <footer class="bg-theme pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-4">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque non tortor non scelerisque.
+            Nam lacinia blandit risus at luctus.
+          </p>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="#">
+                Home
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                About
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                Contact
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                Privacy policy
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                Terms & Conditions
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                Crarear
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4">
+          <div id="portfolio" class="row ft-gallery">
+            <div class="col-4 px-1 my-1 position-relative">
+              <a href="../Images/yachts1.jpg">
+                <img class="img-fluid" src="../Images/yachts1.jpg">
+                <div class="overlay">
+                  <i class="far fa-eye"></i>
+                </div>
+              </a>
+            </div>
+            <div class="col-4 px-1 my-1 position-relative">
+              <a href="../Images/yachts2.jpg">
+                <img class="img-fluid" src="../Images/yachts2.jpg">
+                <div class="overlay">
+                  <i class="far fa-eye"></i>
+                </div>
+              </a>
+            </div>
+            <div class="col-4 px-1 my-1 position-relative">
+              <a href="../Images/yachts3.jpg">
+                <img class="img-fluid" src="../Images/yachts3.jpg">
+                <div class="overlay">
+                  <i class="far fa-eye"></i>
+                </div>
+              </a>
+            </div>
+            <div class="col-4 px-1 my-1 position-relative">
+              <a href="../Images/yachts4.jpg">
+                <img class="img-fluid" src="../Images/yachts4.jpg">
+                <div class="overlay">
+                  <i class="far fa-eye"></i>
+                </div>
+              </a>
+            </div>
+            <div class="col-4 px-1 my-1 position-relative">
+              <a href="../Images/yachts2.jpg">
+                <img class="img-fluid" src="../Images/yachts2.jpg">
+                <div class="overlay">
+                  <i class="far fa-eye"></i>
+                </div>
+              </a>
+            </div>
+            <div class="col-4 px-1 my-1 position-relative">
+              <a href="../Images/yachts3.jpg">
+                <img class="img-fluid" src="../Images/yachts3.jpg">
+                <div class="overlay">
+                  <i class="far fa-eye"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-sm-6 col-md-4">
+          <ul class="list-inline ft-social">
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+          <div class="container text-end mb-3">
+            © copyright @ MeMeYacht
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+<!------------------Back to top-------------------->
+<a id="backTop" href="#" class="gotopbtn">
+  <img class="img-fluid" src="../Images/anchor-blue.png">
+</a>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/font-awesome.min.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+
+  <link href="./node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <title>Ultimate Boosters</title>
+</head>
+
+<body>
+  <div class="w-100">
+    <div id="particles-js">
+      <div class="container ">
+        <nav class="navbar category navbar-expand-lg main-nav">
+          <a class="navbar-brand" href="#">
+            <img class="img-fluid" src="./images/logo.jpg">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <div></div>
+            <div class="middle"></div>
+            <div></div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shopping</a>
+                <main class="dropdown-menu sub-menu" aria-labelledby="navbarDropdown" data-bs-popper="none">
+                  <div class="container">
+                    <section class="row">
+                      <div class="col-sm-6 col-lg-2 menu-mg-container">
+                        <img class="img-fluid" src="./images/logo.jpg">
+                      </div>
+                      <div class="col-10">
+                        <div class="row">
+
+                          <div class="col-12 col-sm-6 col-lg-3 ">
+                              <h6>Category Name</h6>
+                              <a class="dropdown-item" href="#">Category Item </a>
+                              <a class="dropdown-item" href="#">Category Item </a>
+                              <a class="dropdown-item" href="#">Category Item </a>
+                              <a class="dropdown-item" href="#">Category Item </a>
+                              <a class="dropdown-item" href="#">Category Item </a>
+                          </div>
+
+                          <div class="col-12 col-sm-6 col-lg-3 ">
+                            <h6>Category Name</h6>
+                            <a class="dropdown-item" href="#">Category Item </a>
+                            <a class="dropdown-item" href="#">Category Item </a>
+                            <a class="dropdown-item" href="#">Category Item </a>
+                            <a class="dropdown-item" href="#">Category Item </a>
+                            <a class="dropdown-item" href="#">Category Item </a>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-lg-3 ">
+                          <h6>Category Name</h6>
+                          <a class="dropdown-item" href="#">Category Item </a>
+                          <a class="dropdown-item" href="#">Category Item </a>
+                          <a class="dropdown-item" href="#">Category Item </a>
+                          <a class="dropdown-item" href="#">Category Item </a>
+                          <a class="dropdown-item" href="#">Category Item </a>
+                      </div>
+
+                      <div class="col-12 col-sm-6 col-lg-3 ">
+                        <h6>Category Name</h6>
+                        <a class="dropdown-item" href="#">Category Item </a>
+                        <a class="dropdown-item" href="#">Category Item </a>
+                        <a class="dropdown-item" href="#">Category Item </a>
+                        <a class="dropdown-item" href="#">Category Item </a>
+                        <a class="dropdown-item" href="#">Category Item </a>
+                    </div>           
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+
+                </main>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="post.html">Posts</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Food</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Top Deals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Exclusive</a>
+              </li> -->
+            </ul>
+            <div class="d-flex">
+              <a href="#" class="userName">
+                <img class="img-fluid float-start" src="./images/logoDell.jpg">
+                <label>User name</label>
+              </a>
+              <button class="btn btn-theem">Login</button>
+
+            </div>
+          </div>
+        </nav>
+        <!--Tag line-->
+        <h1 class="tagline">Buy coupons, for online <br /> Store In India.</h1>
+      </div>
+    </div>
+  </div>
+  <!--========================================== Form =====================================-->
+
+  <section class="search-wraper">
+    <div class="container">
+      <div class="row">
+        <form class="search-container">
+          <div class="col-12 col-md-3 pe-2">
+            <input type="search" class="form-control" id="searchCoupon" placeholder="Search">
+          </div>
+          <div class="col-12 col-md-3 pe-2">
+            <select class="form-control" id="searchCoupon">
+              <option>Category</option>
+              <option>Amazon</option>
+              <option>Flipkart</option>
+              <option>Mintra</option>
+              <option>OYO</option>
+            </select>
+          </div>
+          <div class="col-12 col-md-4 pe-2">
+            <div class="row">
+              <div class="col-4">
+                Days left
+              </div>
+              <div class="col-8">
+                <div class="price-slider">
+                  <input value="15" min="0" max="2519" type="range" onchange="range()">
+                  <input value="2519" min="0" max="2519" type="range" onchange="range()">
+                  <svg width="100%" height="24">
+                    <line x1="4" y1="0" x2="300" y2="0" stroke="#212121" stroke-width="12" stroke-dasharray="1 28">
+                    </line>
+                  </svg>
+                  <div class="row range-value">
+                    <div class="col text-start px-1">
+                      from <i class="fas fa-dollar-sign" aria-hidden="true"></i>
+                      <input type="number" id="minrange" value="15" min="15" max="2519" onchange="range()">
+                    </div>
+                    <div class="col text-start px-1 text-end">
+                      to
+                      <i class="fas fa-dollar-sign" aria-hidden="true"></i>
+                      <input type="number" id="maxrange" value="2519" min="15" max="2519" onchange="range()">
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-2">
+            <button class="btn btn-theem w-100">Apply filter</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <!--========================================== Category Tabs =====================================-->
+  <section class="container mt-5">
+    <ul class="nav nav-tabs category-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="store-tab" data-bs-toggle="tab" data-bs-target="#store" type="button"
+          role="tab" aria-controls="store" aria-selected="true"><i class="fa fa-shopping-basket"></i>
+          <div>Online Stores</div>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="electronics-tab" data-bs-toggle="tab" data-bs-target="#electronics" type="button"
+          role="tab" aria-controls="electronics" aria-selected="false">
+          <i class="fa fa-laptop" aria-hidden="true"></i><br />
+          <div>Mobiles & Electronics</div>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="Shoping-tab" data-bs-toggle="tab" data-bs-target="#Shoping" type="button"
+          role="tab" aria-controls="Shoping" aria-selected="false">
+          <i class="fa fa-female" aria-hidden="true"></i><br />
+          <div>Cloth & Shoping</div>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="travel-tab" data-bs-toggle="tab" data-bs-target="#travel" type="button" role="tab"
+          aria-controls="travel" aria-selected="false">
+          <i class="fa fa-plane" aria-hidden="true"></i><br />
+          <div>Flight & Travel</div>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="groceries-tab" data-bs-toggle="tab" data-bs-target="#groceries" type="button"
+          role="tab" aria-controls="groceries" aria-selected="false">
+          <i class="fa fa-shopping-bag" aria-hidden="true"></i><br />
+          <div>Food & Groceries</div>
+        </button>
+      </li>
+    </ul>
+    <div class="tab-content category-tab-body" id="myTabContent">
+      <div class="tab-pane fade show active" id="store" role="tabpanel" aria-labelledby="store-tab">
+        <div class="row">
+          <div class="col">
+            <img class="image-fluid" src="./images/logoAjio.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoAmazon.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoDell.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoFlipKart.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoMmt.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoMyntra.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoOyo.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoTataCLQ.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="electronics" role="tabpanel" aria-labelledby="electronics-tab">
+        <div class="row">
+          <div class="col">
+            <img class="image-fluid" src="./images/logoOyo.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoTataCLQ.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoAjio.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoAmazon.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoDell.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoFlipKart.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoMmt.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoMyntra.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="Shoping" role="tabpanel" aria-labelledby="Shoping-tab">
+        <div class="row">
+          <div class="col">
+            <img class="image-fluid" src="./images/logoDell.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoFlipKart.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoOyo.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoTataCLQ.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoAjio.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoAmazon.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoMmt.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoMyntra.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="travel" role="tabpanel" aria-labelledby="travel-tab">
+        <div class="row">
+          <div class="col">
+            <img class="image-fluid" src="./images/logoOyo.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoTataCLQ.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoAjio.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoAmazon.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoDell.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoFlipKart.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoMmt.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoMyntra.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="groceries" role="tabpanel" aria-labelledby="groceries-tab">
+        <div class="row">
+          <div class="col">
+            <img class="image-fluid" src="./images/logoOyo.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoTataCLQ.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoAjio.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoAmazon.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoMmt.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoMyntra.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoDell.jpg">
+          </div>
+          <div class="col">
+            <img class="image-fluid" src="./images/logoFlipKart.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--========================================== Company Details =====================================-->
+  <section class="container mt-5 mb-2">
+    <div class="card p-3 card-shadow">
+      <div class="row">
+        <div class="col-12 col-md-3">
+          <img class="img-fluid mb-3" src="./images/logoMyntra.jpg">
+          <ul class="list-inline h4">
+            <li class="list-inline-item text-warning">
+              <i class="fa fa-star"></i>
+            </li>
+            <li class="list-inline-item text-warning">
+              <i class="fa fa-star"></i>
+            </li>
+            <li class="list-inline-item text-warning">
+              <i class="fa fa-star"></i>
+            </li>
+            <li class="list-inline-item text-warning">
+              <i class="fa fa-star-half-o"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fa fa-star-o"></i>
+            </li>
+          </ul>
+          <small>
+            3.9 (78.48%) 15923 vote[s]
+          </small>
+        </div>
+        <div class="col-12 col-md-9">
+          <h5 class="fw-bold">Myntra Coupons And Discount Codes For September 2021</h5>
+          <p>
+            Are You Looking For Myntra Coupons and Discount Offers? At CouponzGuru, you will always get the Latest,
+            Working and
+            Genuine Myntra Coupon Codes, Discount Codes, Deals and Offers. Our dedicated content team updates this list
+            of Myntra
+            Discount Coupons, Offers and Deals on a daily basis. We update the website with latest coupon codes and
+            remove the expired
+            or outdated offers. So check out the Latest List Of Working Myntra Promo Codes, Coupon Offers and Discount
+            Deals Below. Also
+            users, please not that there is nothing known as Myntra Coupon Code Generator or Hack, these are just
+            rumours spread by people.
+            You will get all genuine & working coupons here at CouponzGuru.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--========================================== Company Details =====================================-->
+
+  <section class="container">
+    <div class="row">
+      <section class="col-12 col-md-8 pt-2">
+
+        <div class="card card-shadow p-3 mb-3">
+          <a href="#" class="link-theme h6 fw-bold mb-3">
+            Myntra Epic Fashion Sale – Flat 40% To 70% Off + Instant 10% Citi Bank Off + Extra Rs.400 Off (New User)
+          </a>
+          <p>
+            Explore Myntra’s Epic Fashion Sale & Get Flat 40% To 70% Off On Apparels, Footwear, Jewellery, Home Decor &
+            Much More.
+            Offer Page Includes Exciting Deals From Various Brands Like Nike, ONLY, Mast & Harbour, H&M, Vero Moda,
+            Allen Solly &
+            Much More. Also, Get Instant 10% Off On Payment Via Citi Bank Debit & Credit Cards. Minimum Purchase Of
+            Rs.3000
+            Required & Maximum Discount Of Rs.1000 Can Be Availed. New Users Can Get Extra Rs.400 Off On Order Of
+            Rs.2499 & Above
+            And Free Shipping On 1st Order. Apply Myntra Final Clearance Sale Coupon Code At The Time Of Checkout. Visit
+            The Landing
+            Page To Grab The Offer.
+          </p>
+          <small class="fst-italic">Post expires at 11:59pm on Monday September 13th, 2021</small>
+          <p class="text-end mb-0 mt3">
+            <a href="#" class="btn btn-theem">Get this Coupon</a>
+          </p>
+        </div>
+
+        <div class="card card-shadow p-3 mb-3">
+          <a href="#" class="link-theme h6 fw-bold mb-3">
+            Myntra Epic Fashion Sale – Flat 40% To 70% Off + Instant 10% Citi Bank Off + Extra Rs.400 Off (New User)
+          </a>
+          <p>
+            Explore Myntra’s Epic Fashion Sale & Get Flat 40% To 70% Off On Apparels, Footwear, Jewellery, Home Decor &
+            Much More.
+            Offer Page Includes Exciting Deals From Various Brands Like Nike, ONLY, Mast & Harbour, H&M, Vero Moda,
+            Allen Solly &
+            Much More. Also, Get Instant 10% Off On Payment Via Citi Bank Debit & Credit Cards. Minimum Purchase Of
+            Rs.3000
+            Required & Maximum Discount Of Rs.1000 Can Be Availed. New Users Can Get Extra Rs.400 Off On Order Of
+            Rs.2499 & Above
+            And Free Shipping On 1st Order. Apply Myntra Final Clearance Sale Coupon Code At The Time Of Checkout. Visit
+            The Landing
+            Page To Grab The Offer.
+          </p>
+          <small class="fst-italic">Post expires at 11:59pm on Monday September 13th, 2021</small>
+          <p class="text-end mb-0 mt3">
+            <a href="#" class="btn btn-theem">Get this Coupon</a>
+          </p>
+        </div>
+
+        <div class="card card-shadow p-3 mb-3">
+          <a href="#" class="link-theme h6 fw-bold mb-3">
+            Myntra Epic Fashion Sale – Flat 40% To 70% Off + Instant 10% Citi Bank Off + Extra Rs.400 Off (New User)
+          </a>
+          <p>
+            Explore Myntra’s Epic Fashion Sale & Get Flat 40% To 70% Off On Apparels, Footwear, Jewellery, Home Decor &
+            Much More.
+            Offer Page Includes Exciting Deals From Various Brands Like Nike, ONLY, Mast & Harbour, H&M, Vero Moda,
+            Allen Solly &
+            Much More. Also, Get Instant 10% Off On Payment Via Citi Bank Debit & Credit Cards. Minimum Purchase Of
+            Rs.3000
+            Required & Maximum Discount Of Rs.1000 Can Be Availed. New Users Can Get Extra Rs.400 Off On Order Of
+            Rs.2499 & Above
+            And Free Shipping On 1st Order. Apply Myntra Final Clearance Sale Coupon Code At The Time Of Checkout. Visit
+            The Landing
+            Page To Grab The Offer.
+          </p>
+          <small class="fst-italic">Post expires at 11:59pm on Monday September 13th, 2021</small>
+          <p class="text-end mb-0 mt3">
+            <a href="#" class="btn btn-theem">Get this Coupon</a>
+          </p>
+        </div>
+
+        <div class="card card-shadow p-3 mb-3">
+          <a href="#" class="link-theme h6 fw-bold mb-3">
+            Myntra Epic Fashion Sale – Flat 40% To 70% Off + Instant 10% Citi Bank Off + Extra Rs.400 Off (New User)
+          </a>
+          <p>
+            Explore Myntra’s Epic Fashion Sale & Get Flat 40% To 70% Off On Apparels, Footwear, Jewellery, Home Decor &
+            Much More.
+            Offer Page Includes Exciting Deals From Various Brands Like Nike, ONLY, Mast & Harbour, H&M, Vero Moda,
+            Allen Solly &
+            Much More. Also, Get Instant 10% Off On Payment Via Citi Bank Debit & Credit Cards. Minimum Purchase Of
+            Rs.3000
+            Required & Maximum Discount Of Rs.1000 Can Be Availed. New Users Can Get Extra Rs.400 Off On Order Of
+            Rs.2499 & Above
+            And Free Shipping On 1st Order. Apply Myntra Final Clearance Sale Coupon Code At The Time Of Checkout. Visit
+            The Landing
+            Page To Grab The Offer.
+          </p>
+          <small class="fst-italic">Post expires at 11:59pm on Monday September 13th, 2021</small>
+          <p class="text-end mb-0 mt3">
+            <a href="#" class="btn btn-theem">Get this Coupon</a>
+          </p>
+        </div>
+      </section>
+
+      <asside class="col-12 col-md-4 pt-2">
+        <section class="card card-shadow">
+          <div class="card-body">
+            <img class="img-fluid" src="./images/11_Upto-70-Off-On-Footwear.jpg">
+          </div>
+          <div class="card-body">
+            <img class="img-fluid" src="./images/14_Upto-50-Off-On-Trimmers-Shavers.jpg">
+          </div>
+          <div class="card-body">
+            <img class="img-fluid" src="./images/Fashion_Sidebar.jpg">
+          </div>
+          <div class="card-body">
+            <img class="img-fluid" src="./images/asset-2.jpg">
+          </div>
+          <div class="card-body">
+            <img class="img-fluid" src="./images/asset-1.jpg">
+          </div>
+        </section>
+      </asside>
+    </div>
+  </section>
+
+
+  <!---=================  Footer ==========================-->
+  <footer class="container pt-5 mb-3">
+    <div class="row">
+      <div class="col-sm-6 col-md-3">
+        <img class="img-fluid mb-3" src="./images/logo.jpg">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+          laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.
+        </p>
+      </div>
+      <div class="col-sm-6 col-md-2">
+        <dl>
+          <dt class="h6 fw-bold">Quick links</dt>
+          <dd>
+            <a href="#">
+              Home
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Term of conditions
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Privacy
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Support
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Contact
+            </a>
+          </dd>
+        </dl>
+      </div>
+
+      <div class="col-sm-6 col-md-5">
+        <h6 class="fw-bold">Latest blog</h5>
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-3">
+                <img src="./images/mememall.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-3">
+                <img src="./images/memerestaurant.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-sm-6 col-md-2">
+        <dl>
+          <dt class="h6 fw-bold">Contact us</dt>
+          <dd>
+            <a href="#">
+              <i class="fa fa-envelope"></i> Test@gmail.com
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              <i class="fa fa-phone-square"></i> 123333141
+            </a>
+          </dd>
+          <dt class="h6 fw-bold mt-4">
+            Follow us
+          </dt>
+          <dd>
+            <a href="#">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            </a>
+          </dd>
+
+        </dl>
+        <label>Coppy right</label>
+      </div>
+    </div>
+  </footer>
+
+  <!------Back to top-->
+  <a class="scroll-top-wrapper" href="#"><i class="fa fa-arrow-up"></i></a>
+
+  <!--========================================== Chat boat =====================================-->
+  <a class="btn-chat">
+    <i class="bi bi-pencil-square"></i>
+  </a>
+  <asside class="chatBoat-container">
+    <section class="chatBoat-header">
+      New message <a class="chat-close"><i class="bi bi-x-lg"></i></a>
+    </section>
+    <section class="chatBoat-body">
+      <div class="msg-header border-bottom">
+        <div class="w-100 pb-2">
+          To: <input class="text border-0">
+        </div>
+      </div>
+
+
+      <!----------------------->
+      <section class="row">
+        <div class="col-6 suggested">
+          Suggested
+        </div>
+      </section>
+
+
+
+
+
+
+    </section>
+    <!-- <section class="chatBoat-footer">
+    <input type="text" placeholder="Write a message">
+    <button class="message-submit">
+      <i class="fa fa-paper-plane-o" ></i>
+    </button>
+  </section> -->
+
+  </asside>
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="./js/jquery-3.5.1.slim.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/particles.min.js"></script>
+  <script src="./js/app.js"></script>
+  <script src="./js/custom.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,760 @@
+/*  
+Template Name: Solar
+Template URI: https://templatepreview.link/rs/solar_panel_1/
+Description: Solar for Lorem.
+Version: 1.0
+Author: Actovision
+Author URI: https://actovision.com/
+Fonts: Mulish:200,300,400,500,600,700,800,900,1000 | Racing Sans One:400
+*/
+
+body{
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* ---------header start------- */
+.header{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.logo-container{
+ text-align: center;
+}
+/* ---------header end------- */
+
+
+/* ---------Page banner------- */
+.sec-hero{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.banner{
+    width: 100%;
+    max-width: 100%;
+    background-image: url(./images/slider-1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.banner .ez_container{
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.banner .ez_carosuel_sec .carousel-items-wrapper{
+    height: 600px;
+    background-color: rgba(10,35,73,.8);
+}
+
+.banner .ez_carosuel_sec .ez_carousel_item{
+    position: absolute;
+    height: auto;
+    bottom: 4rem;
+    background-color: transparent;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.banner .ez_carosuel_sec .ez_carousel_item.active{
+    opacity: 1;
+}
+.banner .ez_carosuel_sec .ez_heading_container p{
+    font-size: 3.5rem;
+    color: #fff;
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+}
+.banner .ez_carosuel_sec .ez_text_container p{
+    color: #fff;
+    font-family: "Mulish", sans-serif;
+    margin-bottom: 2rem;
+}
+.banner .ez_carosuel_sec .ez_button_container button{
+    border-radius: 40px;
+    font-size: 16px;
+    font-family: "Mulish", sans-serif;
+    background-color: #25a3ff;
+    margin: auto;
+    padding: 1rem 1.5rem;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+}
+.banner .ez_carosuel_sec .ez_button_container button:hover{
+    background-color:#ff8800;
+}
+.carousel_list_marker_cont li{
+    border: none;
+    width: 1.4rem;
+    border-radius: .1rem;
+    height: 0.5rem;
+}
+.carousel_list_marker_cont li.active {
+    background: #21a2ff;
+    width: 1.8rem;
+}
+
+/* ---------Page banner end------- */
+
+/******* Section 2 column *********/
+.highlights{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+.highlights img{
+    border-radius: 1rem;
+}
+.sub-heading p{
+    color: #0062a9;
+    text-transform: capitalize;
+    font-family: 'Racing Sans One';
+    font-size: 1.4rem;
+}
+.sec-heading p{
+    font-weight: 300;
+    font-family: 'Mulish';
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: normal;
+}
+.benifits{
+    text-align: center;
+    
+}
+.benifits .ez_icon_box_container .ez_icon_box_content p.ez_icon_box_title{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.benifits .ez_icon_box_container .ez_icon_box i{
+    width: 56px;
+    height: 56px;
+    color: #0062a9;
+    background-color: #e6eff5;
+    box-shadow: none;
+}
+.quick-contact a{
+    background-color: #0062a9;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    max-width: 270px;
+    margin: auto;
+}
+.quick-contact a:hover{
+    background-color: #ff8800;
+}
+.quick-contact a i{
+    margin-left: 6px;
+    border-left: 2px solid #fff;
+    padding-left: 6px;
+}
+
+/******* services *********/
+.services{  
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.services .ez_container-full{
+    background-image: url(./images/bg-services.webp);
+    border-radius: 1rem;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed; 
+    overflow: hidden;  
+}
+.services .ez_row{
+    padding: 3rem 2rem;
+    background-color: rgba(0, 36, 62, .8);
+}
+.services p{
+    color: #fff;
+}
+.services .sub-heading p{
+    color:#fff;
+    text-align: center;
+}
+.services .sec-heading p {
+    color: #fff;
+    text-align: center;
+}
+.services .ratting-container{
+    padding: 0;
+    background-color: transparent;
+    margin-bottom: 0.5rem;
+}
+.services .ez_text_container p{
+    text-align: center;
+}
+.ratting-inline{
+    padding: 8px;
+    background-color: #ffffff;
+    width: 134px;
+    border-radius: 6px;
+    margin: auto;
+}
+.ratting-inline div{
+    display: inline-flex;
+
+}
+.ratting-inline div i{
+    font-size: 0.9rem;
+    padding: 2px;
+}
+.services .card-container{
+    padding-top: 0;
+}
+.card-container .ez_image_box_container.card{
+    background-color: rgba(112, 159, 212, .4);
+}
+.card .ez_icon_text_link_icon i{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+.card .ez_image_box_content p.ez_image_box_title{
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.card a{
+    background-color: #f17f00;
+    padding: .6rem 1rem;
+    color: #fff;
+    display: inline-flex;
+    text-decoration: none;
+    border-radius: 22px;
+}
+.card-container .ez_image_box_container.card:hover {
+    background-color: #f17f00;
+}
+.card-container .ez_image_box_container.card:hover a{
+    background-color: #fcbd74;
+    color:#212529;
+}
+/******* services column end *********/
+
+/******* pricing *********/
+.sec-pricing{
+    margin-bottom: 5rem;
+}
+.sec-pricing .sub-heading p{
+    text-align: center;
+}
+.sec-pricing .sec-heading{
+    text-align: center;
+}
+.price-card{
+    border: 1px solid #f7f7f7;
+    box-shadow: 0px 4px 16px rgba(112, 159, 212, .3);
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+}
+.price-card .icon-container{
+    text-align: center;
+    width: 4rem;
+    height: 4rem;
+    margin: 3rem auto;
+    background-color: #e6eff5;
+    border-radius: 0.5rem;
+    transform: rotate(45deg);
+    display: flex;
+}
+.price-card .icon-container i{
+    transform: rotate(-45deg);
+    background-color: transparent;
+    box-shadow: none;
+    margin: auto;
+    font-size: 2.5rem;
+    color: #0062a9;
+}
+.price-card .ez_icon_box_content p.ez_icon_box_title{
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+.price-card .ez_icon_box_content p{
+    text-align: center;
+}
+.price-card .ez_icon_box_content .price{
+    padding: 2rem;
+    background-color: #e6eff5;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.price-card .ez_icon_box_content .price span{
+    display: block;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.price-card .ez_icon_box_content .price sub{
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.crd-link{
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.crd-link a{
+    background-color: #e6eff5;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+    padding: 1rem;
+    margin: auto;
+    color: #565a5f;
+    border-radius: 2rem;
+   
+}
+.price-card.crd-active .icon-container,
+.price-card.crd-active .price{
+    background-color: #0062a9;
+    color: #fff;    
+}
+.price-card.crd-active .icon-container i{
+    color: #fff;
+}
+.price-card.crd-active .crd-link a{
+    background-color: #0062a9;
+    color:#fff;
+}
+.price-card:hover .icon-container,
+.price-card:hover .price,
+.price-card:hover .crd-link a{
+    background-color: #0062a9;
+    color: #fff;
+}
+.price-card:hover .icon-container i{
+    color: #fff;
+}
+.price-card .crd-link a:hover{
+    background-color: #f17f00;
+}
+
+/**********FAQ-Section**********************/
+.faq-section{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-bottom: 5rem;
+}
+.faq-section .ez_container-full{
+    background-image: url(./images/bg2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.faq-section .ez_container-full .ez_row{
+    padding: 3rem 2rem;
+    background-color: rgba(0, 36, 62, .8);
+}
+.faq-section .ez_accordion_container .ez_accordion_item{
+    background-color: rgba(112, 159, 212, .6);
+    margin-bottom: 1rem;
+    border-radius: .25rem;
+    overflow: hidden;
+    
+}
+.faq-section .ez_accordion_container .ez_accordion_item .ez_accordion_header{
+    background-color: transparent;
+}
+.faq-section .ez_accordion_container .ez_accordion_item.ez_accordion_active{
+    background-color: #f17f00;
+}
+.faq-section .ez_accordion_container .ez_accordion_item.ez_accordion_active .ez_accordion_header{
+    background-color: #f17f00;
+}
+.faq-section .ez_accordion_container .ez_accordion_item .ez_accordion_header p{
+    color: #fff;
+}
+.faq-section .ez_accordion_container .ez_accordion_item.ez_accordion_active .ez_accordion_header p{   
+    font-size: 1.2rem;
+    color: #fff;
+}
+.faq-section .ez_accordion_container .ez_accordion_item .ez_accordion_header i{
+    color: #fff;
+}
+.faq-section .ez_accordion_container .ez_accordion_item.ez_accordion_active .ez_accordion_header i{
+    color: #fff;
+    font-size: 1.1rem;
+}
+.faq-section .ez_accordion_container .ez_accordion_item .ez_accordion_body p{
+    color:#fff;
+}
+.faq-section .ez_image_container{
+    text-align: center;
+}
+/**********FAQ-Section End**********************/
+
+/********** Our Team**********************/
+.team{
+    margin-bottom: 5rem;
+}
+.sec-small-heading p{
+    font-size: 2rem;
+}
+.ez_image_box_container.team-member{
+    border: 1px solid #e6eff5;
+    padding: 0;
+    box-shadow: 0px 2px 9px rgba(0,98,169,.08);
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.team-member .ez_image_box_content{
+    padding: 1rem;
+    border-top: 1px solid #edf8fe;
+}
+.team-member .ez_image_box_content p.ez_image_box_desc{
+    font-size: .9rem;
+    color:#6a6e73;
+}
+.team-member .ez_image_box_content p{
+    text-align: center;
+}
+.team-member .ez_image_box_img{
+    display: flex;
+    overflow: hidden;
+}
+.team-member .ez_image_box_img img{
+    margin: 0;
+    border-radius: 0;
+}
+.ez_image_box_container.team-member:hover{
+    background-color: #0062a9;
+}
+.ez_image_box_container.team-member:hover .ez_image_box_img img{
+    opacity: 0.5;
+    transform: scale(1.15);
+    --webkit-transform: scale(1.15);
+    --moz-transform: scale(1.15);
+    --ms-transform: scale(1.15);
+    --o-transform: scale(1.15);
+}
+.ez_image_box_container.team-member:hover .ez_image_box_content{
+    background-color: #f17f00;
+}
+.ez_image_box_container.team-member:hover .ez_image_box_content p{
+    color:#fff;
+}
+
+
+/********** End Our Team**********************/
+
+/**********Blog**********************/
+.blog{
+    margin-bottom: 5rem;
+}
+.blog .sub-heading p{text-align: center;}
+.blog .sec-heading p{text-align: center;}
+.news-box{
+    background-color: #fff;
+    gap: 1rem;
+    border:1px solid #e6eff5; padding: 0;
+}
+.news-box .ez_image_box_img {
+    width: 10rem;
+}
+.news-box .ez_image_box_img img{
+    margin: 0;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+}
+.news-box .ez_image_box_content{
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+}
+.news-box .ez_image_box_content p.ez_image_box_title{
+    font-size: 1.15rem;
+}
+.news-box .ez_link_container a{
+    text-decoration: none;
+    color: #565a5f;
+    background-color: #e6eff5;
+    display: inline-flex;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+.news-box:hover{
+    background-color: #f17f00;
+}
+.news-box:hover .ez_image_box_content p{
+    color: #fff;
+}
+.news-box:hover .ez_link_container a{
+    background-color: #fcbd74;
+    color: #212529;
+}
+
+/********** End Blog**********************/
+
+/********** News-letter **********************/
+.news-letter .sub-heading p {
+    text-align: center;
+}
+.news-letter .sec-heading p{
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.news-letter-box{
+    max-width: 60rem;
+    box-shadow: 0px 2px 12px rgba(132, 148, 161, .2);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    background-image: url(./images/solar-panels.webp);
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ez_form{
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.ez_input_container{
+    width: 100%;
+}
+.btn-submit{
+    background-color: #0062a9;
+    color: #fff;
+    width: auto;
+    text-wrap-mode: nowrap;
+    border-radius: 20px;
+    padding: 6px 20px;
+}
+.btn-submit:hover{
+    background-color: #f17f00;
+}
+/********** End News-letter **********************/
+
+/**********Footer**********************/
+.footer{
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+}
+.footerLogo{
+    margin-bottom: 1rem;
+}
+.footer .ez_head5{
+    font-weight: 800;
+    color: #0062a9;
+}
+.footer .ez_icon_text_link_container{
+    margin-top: 0;
+}
+.footer .ez_link_container a{
+    color: #212529;
+    text-decoration: none;
+}
+.footer .ez_social_container .ez_social_list a{
+    border-color: #e3e7e9;
+    background-color: #e6eff5;
+}
+.footer .ez_social_container .ez_social_list>a>i{
+    color: #565a5f;
+}
+.footer .ez_social_container .ez_social_list a:hover{
+    background-color: #f17f00;       
+}
+.footer .ez_social_container .ez_social_list a:hover i{
+    color: #fff;
+}
+.footer .ez_icon_text_link_container .ez_icon_text_link i{
+    color: #565a5f;
+    font-size: 1.2rem;
+}
+.footer .ez_form_btn button{
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    border-radius: 2rem;
+    background-color: #0062a9;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+
+/************ copy right *******************/
+.copyright{
+    margin-top: 3rem;
+    text-align: center;
+    padding-top: 1rem;
+    border-top: 1px solid #ced4da;
+}
+
+
+/**********Media Query**********************/
+
+
+@media screen and (max-width:1199px) {
+    .sec-hero, .services, .faq-section {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .banner .ez_carosuel_sec .carousel-items-wrapper{
+        height: 500px;
+    }
+    .banner .ez_carosuel_sec .ez_heading_container p{
+        font-size: 3rem;
+    }
+    .sec-heading p{
+        font-size: 2.4rem;
+    }
+    .news-letter-box{
+        max-width: 48rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .banner .ez_carosuel_sec .ez_heading_container p {
+        font-size: 2.5rem;
+    }
+    .highlights{
+        margin-top: 3rem;
+    }
+    .highlights .ez_image_container{
+        text-align: center;
+        height: 20rem;
+        overflow: hidden;
+    }
+    .highlights img{
+        height: 20rem;
+        width: 22rem;
+        object-fit: cover;
+        object-position: top;
+    }
+    .highlights .sub-heading{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .price-card .ez_icon_box_content .price span{
+        font-size: 2rem;
+    }
+    .crd-link a{
+        width: 100%;
+    }
+    .services{
+        margin-top: 0;
+    }
+    .sec-heading p{
+        text-align: center;
+    }
+    .team .sub-heading{
+        text-align: center;
+    }
+    .sec-small-heading p{
+        text-align: center;
+    }
+    .news-letter-box {
+        max-width: 40rem;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .banner .ez_carosuel_sec .ez_heading_container p {
+            font-size: 2rem;
+    }
+    .ez_icon_box_container    {
+            padding: 5px 10px;
+    }
+    .services{
+        margin-bottom: 2rem;
+    }
+    .price-card{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .blog{
+        margin-bottom: 3rem;
+    }
+    .blog .news-box{
+        flex-direction: row;
+        margin-top: 0;
+    }
+    .sec-pricing {
+        margin-bottom: 3rem;
+    }
+    .faq-section{
+        margin-bottom: 3rem;
+    }
+    .team{
+        margin-bottom: 2rem;
+    }
+    .news-letter-box {
+        max-width: 33rem;
+    }
+    .ez_form{
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width:575px) {
+
+    .sec-hero, .services, .faq-section {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .banner .ez_carosuel_sec .ez_carousel_item{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .banner .ez_carosuel_sec .ez_heading_container p {
+        font-size: 1.5rem;
+    }
+    .banner .ez_carosuel_sec .ez_text_container p{
+        margin-bottom: 1rem;
+        font-size: .9rem;
+    }
+    .banner .ez_carosuel_sec .ez_button_container button{
+        padding: .7rem 1rem;
+    }
+    .sec-heading p {
+        font-size: 1.8rem;
+    }
+    .faq-section .ez_container-full .ez_row{
+        padding: 1rem 1rem;
+    }
+    .blog .news-box{
+        flex-direction:column;
+        gap: 0;
+    }
+    .news-box .ez_image_box_img {
+        width: 100%;
+    }
+    .news-box .ez_image_box_img img{
+        border-radius: 5px 5px 0 0;
+        width: 100%;
+        height: 250px;
+        object-position: bottom;
+    }
+    .news-box .ez_image_box_content{
+        padding: .8rem;
+    }
+    .news-letter-box {
+        max-width:90%;
+    }
+    .crd-link a{
+        font-size: 1rem;
+    }
+    .news-letter .sec-heading p {
+        font-size: 1.8rem;
+    }
+        
+}
+
+
+
+

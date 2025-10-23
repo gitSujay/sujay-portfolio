@@ -1,0 +1,29 @@
+.template1 header, .template1 .main-nav {background-color: rgba(0,0,0,.4);} 
+.template1 .main-nav a, .template1 header a{color:#fff !important;}
+.template1 .main-nav.fixed-top a { color: #007C8B !important;}
+.template1 .hero-text h1, 
+.section-heading,
+.theem-1 .card-title{color: #007C8B;}
+.theem-1:hover .card-title{color:#fff;}
+.template1 .ourBots .card:hover, .template2 .ourBots .card:hover .card-title {
+    background-color: #007C8B; color: #fff;}
+
+.template1 .bg-theme{ background-color: #007C8B; color:#fff;}
+.template1 a, .template1 .text-theme{color: #007C8B}
+.template1 a:hover, .template1 .navbar a:hover{color:#2ff9fc}
+.template1 .btn-theme{background-color:#007C8B; color:#2ff9fc; font-weight: bold;}
+.template1 .btn-theme:hover{background-color:#2ff9fc;  color:#007C8B;}
+.template1 .bg-theme .btn, .template1 .ourBots .card:hover .btn-theme{background-color:#2ff9fc;  color:#007C8B;}
+.overlay{background-color: rgba(0, 124, 139, 0.9);}
+footer .ft-social a {color:#007C8B !important; text-decoration: none;}
+
+.chatBoat-header{background-color: #007C8B; color: #2ff9fc; }
+
+
+@media (max-width:991px){
+    .template2 #slideContent .left-nav a{color:#336699;}
+}
+
+@media (max-width:575px){
+    .template2 .ourBots{margin-top: -5rem;}
+}
