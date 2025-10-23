@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Survey It's Vaccine Time</title>
+    <link rel="shortcut icon" href="images/fav-icon.svg"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="./style/bootstrap-icons.css" rel="stylesheet">
+    <link href="./style/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img class="logo" src="images/logo.svg">
+                </div>
+                <div class="col">
+                    <div class="d-flex-col">
+                        <a class="fw-bold" href="tel:+918927481727">
+                            <i class="bi bi-telephone"></i>
+                            +91 8927481727
+                        </a>
+                        <a href="mailto:sujayshaw89@gmail.com">
+                            <i class="bi bi-envelope-at"></i>
+                            sujayshaw89@gmail.com
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="srv-container">
+        <section class="row">
+            <div class="col col-12 text-center">
+                <div class="srv-stp">
+                    <p>Step 1 of 2</p>
+                </div>
+
+                <h1 class="sec-heading">
+                    Take Our 1-Minute Survey and Learn If You're Eligible to Test New Products
+                </h1>
+
+                <div class="sticker">
+                    <img alt="sticker" src="images/sticker.svg">
+                </div>
+
+
+                <form autocomplete="off">
+                    <section class="survey" id="srvQues_1">
+                        <p class="question">1. What is the main way COVID-19 spreads?</p>
+                        <progress class="progress" value="0" max="100"></progress>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q1" value="0" id="q1op1">
+                                    <label for="q1op1">Through mosquito bites</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q1" value="1" id="q1op2">
+                                    <label for="q1op2">Through contaminated food</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q1" value="2" id="q1op3">
+                                    <label for="q1op3"> Through respiratory droplets from an infected person</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q1" value="3" id="q1op4">
+                                    <label for="q1op4"> Through mobile phone signals</label>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="survey no-display" id="srvQues_2">
+                        <p class="question">2. What are the most common symptoms of COVID-19?</p>
+                        <progress class="progress" value="10" max="100"></progress>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q2" value="0" id="q2op1">
+                                    <label for="q2op1">Fever, cough, tiredness</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q2" value="1" id="q2op2">
+                                    <label for="q2op2">Through contaminated food</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q2" value="2" id="q2op3">
+                                    <label for="q2op3"> Stomach pain, vomiting, diarrhea </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q2" value="3" id="q2op4">
+                                    <label for="q2op4"> Toothache, headache only</label>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="survey no-display" id="srvQues_3">
+                        <p class="question">3. How long can it take for COVID-19 symptoms to appear after exposure?</p>
+                        <progress class="progress" value="10" max="100"></progress>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q3" value="0" id="q3op1">
+                                    <label for="q3op1">1-2 hours</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q3" value="1" id="q3op2">
+                                    <label for="q3op2">1-2 days</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q3" value="2" id="q3op3">
+                                    <label for="q3op3">3-14 days </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q3" value="3" id="q3op4">
+                                    <label for="q3op4">30 days</label>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="survey no-display" id="srvQues_4">
+                        <p class="question">4. Which of these helps reduce the risk of COVID-19 infection?</p>
+                        <progress class="progress" value="10" max="100"></progress>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q4" value="0" id="q4op1">
+                                    <label for="q4op1">Wearing a mask </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q4" value="1" id="q4op2">
+                                    <label for="q4op2">Keeping physical distance </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q4" value="2" id="q4op3">
+                                    <label for="q4op3"> Washing hands frequently </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q4" value="3" id="q4op4">
+                                    <label for="q4op4"> All of the above </label>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="survey no-display" id="srvQues_5">
+                        <p class="question">5. What is the recommended minimum physical distance to reduce transmission?
+                        </p>
+                        <progress class="progress" value="10" max="100"></progress>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q5" value="0" id="q5op1">
+                                    <label for="q5op1">30 cm (1 foot)</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q5" value="1" id="q5op2">
+                                    <label for="q5op2"> 1 meter (3 feet) </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q5" value="2" id="q5op3">
+                                    <label for="q5op3"> 5 meters (16 feet) </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q5" value="3" id="q5op4">
+                                    <label for="q5op4"> No distance needed</label>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="survey no-display" id="srvQues_6">
+                        <p class="question">6. Which group is at higher risk of severe illness from COVID-19?</p>
+                        <progress class="progress" value="10" max="100"></progress>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q6" value="0" id="q6op1">
+                                    <label for="q6op1">Children under 10 years</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q6" value="1" id="q6op2">
+                                    <label for="q6op2"> Healthy adults</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q6" value="2" id="q6op3">
+                                    <label for="q6op3"> Older adults and people with chronic conditions </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q6" value="3" id="q6op4">
+                                    <label for="q6op4"> Athletes</label>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="survey no-display" id="srvQues_7">
+                        <p class="question">7. Can COVID-19 be prevented by drinking alcohol or hot water?</p>
+                        <progress class="progress" value="10" max="100"></progress>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q7" value="0" id="q7op1">
+                                    <label for="q7op1">Yes</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q7" value="1" id="q7op2">
+                                    <label for="q7op2"> No </label>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="survey no-display" id="srvQues_8">
+                        <p class="question">8. What should you do if you have COVID-19 symptoms?</p>
+                        <progress class="progress" value="10" max="100"></progress>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q8" value="0" id="q8op1">
+                                    <label for="q8op1">Ignore them and go to work</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q8" value="1" id="q8op2">
+                                    <label for="q8op2">Self-isolate and seek medical advice</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q8" value="2" id="q8op3">
+                                    <label for="q8op3"> Travel to crowded places </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q8" value="3" id="q8op4">
+                                    <label for="q8op4"> Share food with friends</label>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="survey no-display" id="srvQues_9">
+                        <p class="question">9. What is the purpose of COVID-19 vaccines?</p>
+                        <progress class="progress" value="" max="100"></progress>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q9" value="0" id="q9op1">
+                                    <label for="q9op1"> To completely cure infected patients</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q9" value="1" id="q9op2">
+                                    <label for="q9op2">To provide immunity and reduce severity of illness </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q9" value="2" id="q9op3">
+                                    <label for="q9op3"> To make people immune forever without boosters </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q9" value="3" id="q9op4">
+                                    <label for="q9op4">To replace healthy diet and exercise</label>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="survey no-display" id="srvQues_10">
+                        <p class="question">10. Which of the following practices is NOT recommended for COVID-19
+                            prevention?</p>
+                        <progress class="progress" value="10" max="100"></progress>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q10" value="0" id="q10op1">
+                                    <label for="q10op1"> Washing hands with soap and water</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q10" value="1" id="q10op2">
+                                    <label for="q10op2">Sharing personal items</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q10" value="2" id="q10op3">
+                                    <label for="q10op3">
+                                        Covering mouth when coughing </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="options">
+                                    <input type="radio" name="q10" value="3" id="q10op4">
+                                    <label for="q10op4">
+                                        Getting vaccinated</label>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="container">
+            <div class="row">
+                <div class="col col-12">
+                    <div class="ft-logo">
+                        <img class="img-responsive" src="images/logo.svg">
+                    </div>
+                    <ul class="legal-page-list">
+                        <li>
+                            <a href="javascript-void(0)" data-target="legalPrivacy" >Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="javascript-void(0)" data-target="legalRefund" >Refund Policy</a>
+                        </li>
+                        <li>  
+                            <a href="javascript-void(0)" data-target="legalTerms" >Terms & Service</a>
+                        </li>
+                    </ul>
+                    <ul class="legal-page-list social-media">
+                        <li>
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        </li>
+                        <li>  
+                            <a href="#"><i class="bi bi-whatsapp"></i></a>
+                        </li>
+                        <li>  
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </footer>
+  
+    
+    <section class="popup hide-popup" >
+        <div class="popup-container">
+             <h3 class="pop-heading">Step 2 of 2</h3>
+            <p class="pop-title-txt">Fill In Your Information & Submit To Become a customer</p>
+            <form id="userForm" autocomplete="off">
+                <div class="form-group">
+                    <label class="lbl-input" for="username">Full Name</label>
+                    <input class="form-input" type="text" id="username" name="" autocomplete="true" >
+                    <p class="error"  id="errName"></p>
+                </div>
+                <div class="form-group">
+                    <label class="lbl-input" for="useremail">Email</label>
+                    <input class="form-input" type="email" id="useremail" name="" >
+                    <p class="error"  id="errEmail"></p>
+                </div>
+                <div class="form-group">
+                    <label class="lbl-input" for="userphone">Phone</label>
+                    <input class="form-input" type="tel" name="" id="userphone">                    
+                </div>              
+              <button class="btn-submit" type="submit" id="submitBtn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="legal-popup" id="legalPrivacy">
+        <iframe class="terms" src="legal-pages/privacy.html" title="Terms & Condition"></iframe>
+        <button class="closePopup"><i class="bi bi-x"></i></button>
+    </div>
+
+    <div class="legal-popup" id="legalRefund">
+        <iframe class="terms" src="legal-pages/refund.html" title="Terms & Condition"></iframe>
+        <button class="closePopup"><i class="bi bi-x"></i></button>
+    </div>
+
+    <div class="legal-popup" id="legalTerms">
+        <iframe class="terms" src="legal-pages/terms-condition.html" title="Terms & Condition"></iframe>
+        <button class="closePopup"><i class="bi bi-x"></i></button>
+    </div>
+
+
+    <script src="./script/script.js"></script>
+    <script src="./script/legalpop.js"></script>
+</body>
+
+</html>

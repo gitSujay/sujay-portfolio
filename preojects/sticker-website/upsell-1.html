@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Upsell-1</title>
+    <link rel="shortcut icon" href="images/fav-icon.svg"> 
+    <link href="./style/bootstrap-icons.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="./style/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                   <a href="index.html">
+                        <img class="logo" src="images/logo.svg">
+                    </a> 
+                </div>
+                <div class="col">
+                    <div class="d-flex-col">
+                        <a class="fw-bold" href="tel:+918927481727">
+                            <i class="bi bi-telephone"></i>
+                            +91 8927481727
+                        </a>
+                        <a href="mailto:sujayshaw89@gmail.com">
+                            <i class="bi bi-envelope-at"></i>
+                            sujayshaw89@gmail.com
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="upSell-container">
+        <div class="upsell-page-heading">
+            <i class="bi bi-award"></i> Wait! Elclusive offer for Product!<i class="bi bi-award"> </i>
+        </div>
+        <p class="upsell-page-warning">Do not hit "back Button" as it can cause multiple charges to your card </p>
+
+        <div class="card">
+            <div class="row upsell-row col-revers-md-down">
+                <div class="col col-md-6">
+                    <h3 class="peoduct-name">Stainless steel water bottle</h3>
+                    <p class="product-title"> Act Fast: First 50 Orders Today Get a water bottle  Just <i class="bi bi-currency-dollar"></i>1</p>
+                    <p class="p-txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsa animi hic quisquam 
+                        id necessitatibus perspiciatis deleniti dolores eos pariatur, accusamus veniam velit, a 
+                        deserunt repellat? Similique, suscipit? Quas, sit!
+                    </p>
+                    <a class="btn-theme" href="upsell-2.html" onclick="checkout()">
+                        Yes Add My Order <i class="bi bi-arrow-right"></i>
+                    </a>
+                    <a class="btn-link " href="upsell-2.html" onclick="checkout()">
+                       <i class="bi bi-x-circle-fill"></i> No thanks. I Don't want to get a discount <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col col-md-6 text-center">
+                    <p class="highlight-product">Stainless steel water bottle
+                        <br/> <u>Just For <i class="bi bi-currency-dollar"></i> 1</u>
+                    </p>
+                    <img class="img-responsive mx-w-300" src="images/prd-upsell-1.png">
+                        <div class="checkout-item-status">
+                            <span class="status-list-item"><i class="bi bi-hourglass-split"></i></span>
+                            Hurry Only <span class="counter outline-white"> 30 </span> Bottles Are Left!
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+     <footer class="footer">
+        <section class="container">
+            <div class="row">
+                <div class="col col-12">
+                    <div class="ft-logo">
+                        <img class="img-responsive" src="images/logo.svg">
+                    </div>
+                    <ul class="legal-page-list">
+                        <li>
+                            <a href="javascript-void(0)" data-target="legalPrivacy" >Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="javascript-void(0)" data-target="legalRefund" >Refund Policy</a>
+                        </li>
+                        <li>  
+                            <a href="javascript-void(0)" data-target="legalTerms" >Terms & Service</a>
+                        </li>
+                    </ul>
+                    <ul class="legal-page-list social-media">
+                        <li>
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        </li>
+                        <li>  
+                            <a href="#"><i class="bi bi-whatsapp"></i></a>
+                        </li>
+                        <li>  
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    
+    <div class="legal-popup" id="legalPrivacy">
+        <iframe class="terms" src="legal-pages/privacy.html" title="Terms & Condition"></iframe>
+        <button class="closePopup"><i class="bi bi-x"></i></button>
+    </div>
+    
+    <div class="legal-popup" id="legalRefund">
+        <iframe class="terms" src="legal-pages/refund.html" title="Terms & Condition"></iframe>
+        <button class="closePopup"><i class="bi bi-x"></i></button>
+    </div>
+    
+    <div class="legal-popup" id="legalTerms">
+        <iframe class="terms" src="legal-pages/terms-condition.html" title="Terms & Condition"></iframe>
+        <button class="closePopup"><i class="bi bi-x"></i></button>
+    </div>
+
+    
+
+    
+    <script src="./script/upsell.js"></script>
+    <script src="./script/legalpop.js"></script>
+</body>
+
+</html>
