@@ -30,6 +30,7 @@ p{line-height: 30px;}
 .main-menu.open{display: block !important;}
 
 .banner{position: relative;}
+.banner img{width: 100%;}
 .banner-text{position: absolute; top: 200px; color: #fff; font-size: 40px; text-transform: uppercase;}
 .banner .text-theme{ color: #d6ab4f; font-size: 46px; font-weight: 600;}
 .btn-underline{ background-color: transparent; border: 1px solid; border-radius: 0px;}
