@@ -1,0 +1,684 @@
+/*  
+Template Name: Fire Damage Service 2
+Template URI: https://templatepreview.link/rs/fire_damage_service_2/
+Description: Upsell for Lorem.
+Version: 1.0
+Author: Actovision
+Author URI: https://actovision.com/
+Fonts: Poppins:100,200,300,400,500,600,700,800,900,
+*/
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+/* ---------header Start------- */
+    .header{
+        background-color: #222222;
+        background: linear-gradient(90deg, rgba(255, 159, 2, 1) 0%, rgb(255 159 2) 33.333%, rgba(34, 34, 34, 1) 33.333%, rgba(34, 34, 34, 1) 66.666%, rgba(34, 34, 34, 1) 100%);
+        padding: .2rem 1rem;
+        text-align: center;
+    }
+    .header .ez_link_container a{
+        color: #ffff;
+        font-weight: 300;
+        text-decoration: none;
+    }
+    .header .contact-num a{
+        color: #222222;
+    }
+    .head-lnk-group-right{
+        display: flex;
+        justify-content: flex-end;
+        gap: 1rem;
+    }
+/* ---------header End------- */
+
+/* ---------Navbar------- */
+.menu{
+    background-color: #ffffff;
+}
+.menu .ez_menu_items_wrapper{
+    justify-content: flex-end;
+}
+/* ---------Navbar End------- */
+/* ---------Banner Start------- */
+    .sec-hero .carousel-items-wrapper{
+        height: 39rem;
+    }
+    .sec-hero .ez_container-full{
+        background-color: rgba(0, 0, 0, .9);
+    }
+    .sec-hero .ez_carousel_item .item{
+        align-content: end;      
+    }
+    .sec-hero .ez_heading_container p{
+        font-size: 4rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        color:#ffffff;
+        text-transform: uppercase;
+    }
+    .sec-hero .ez_text_container p{
+        font-family: "Poppins", sans-serif;
+        font-size: 1.2rem;
+    }
+    .sec-hero .ez_carousel_item .item .ez_image_container{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .sec-hero .carousel_list_marker_cont li{
+        width: 2rem;
+        height: 0.75rem;
+        border-radius: 8px;
+        background-color: rgba(255,159,2,0.3);
+        border: 1px solid #ff9f02;
+    }
+    .sec-hero .carousel_list_marker_cont li.active{
+        background-color: rgba(255, 159, 2, 1);
+    }
+/* ---------Banner heading end------- */
+
+/* ---------About------- */
+.sec-about {
+    background-color: #222222;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+.sec-about .ez_text_container.sec-heading p{
+    color: #ff9f02;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.col-end {
+    padding-left: 3.5rem;
+}
+.sec-about .sec-title p{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3.2rem;
+    line-height: 4rem;
+}
+.sec-about .ez_text_container p{
+    color: #ccc;
+    font-weight: 300;
+}
+.sub-abut-row{
+    margin-top: 2rem;
+}
+.sub-abut-row .sub-heading .ez_head5{
+    color: #fff;
+    text-transform: capitalize;
+}
+.card{
+    background-color: #ff9f02;
+    padding: 1.5rem;
+    margin-right: 2rem;
+}
+.serv-year p{
+    font-size: 4rem;
+    font-weight: 900;
+    color: #222222;
+    line-height: 4rem;
+    margin-bottom: 0;
+}
+.card .ez_text_container p{
+    color: #222222;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.btn-link button{
+    font-size: 1.2rem;
+    border: 2px solid #fff;
+    display: inline-flex;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 18px;
+    margin-top: 1rem;
+    border-radius: 0;
+}
+.btn-link button:hover{
+    background-color: #ff9f02;
+    color: #222222;
+    border-color: #ff9f02;
+}
+.sec-about .ico-box-wrapper{
+    padding: 0 0 0 0.5rem;
+    margin-top: 1.5rem;
+}
+.sec-about .ico-box-wrapper.ez_icon_box_container .ez_icon_box i{
+    margin-right: 1.2rem;
+    font-size: 1.6rem;
+    box-shadow: none;
+}
+.sec-about .ico-box-wrapper .ez_icon_box_title{
+    color: #fff;
+}
+.sec-about .ico-box-wrapper .ez_icon_box_content .ez_icon_box_desc {
+    color: #ccc;
+    font-weight: 300;
+}
+
+
+/* ---------About end------- */
+
+/**********services*****************/
+.sec-services{
+    background-image: url(images/img-bg.webp);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-services .sec-heading p{
+    color: #ff9f02;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+.sec-services .sec-title p {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    text-align: center;
+}
+.sec-services .ez_image_box_container{
+    background-color: #222222;
+    padding: 0;
+    box-shadow: 0px 2px 8px rgba(0,0,0,.5);
+}
+.sec-services .ez_image_box_container .ez_image_box_img{
+    display: flex;
+    flex-direction: column;
+}
+.sec-services .ez_image_box_container .ez_image_box_img img{
+    margin: 0;
+    border-radius: 5px 5px 0 0;
+}
+.sec-services .ez_image_box_container .ez_image_box_content{
+    padding: 1rem;
+}
+.sec-services .ez_image_box_container .ez_image_box_title{
+    color: #fff;
+    text-transform: capitalize;
+}
+.sec-services .ez_image_box_container .ez_image_box_desc{
+    color: #ccc;
+    font-weight: 300;
+}
+.sec-services .ez_image_box_container button{
+    font-size: 1.2rem;
+    border: 2px solid #fff;
+    display: inline-flex;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 18px;
+    margin-top: 1rem;
+    background-color: transparent;
+    border-radius: 0;
+}
+.sec-services .ez_image_box_container button:hover{
+    background-color: #ff9f02;
+    color: #222222;
+    border-color: #ff9f02;
+}
+
+/**********services End*****************/
+
+/**********safety-tips********************/
+.sec-safety-tips{
+    background: url(images/bg-safety-tips.webp) center center;
+    background-size: contain;
+    background-color: #222222;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.sec-safety-tips .ez_container{
+    max-width: 46rem;
+}
+.sec-safety-tips .sec-title p{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3.2rem;
+    line-height: 4rem;
+}
+.sec-safety-tips img{
+    display: block;
+}
+.sec-safety-tips .ez_icon_list_desc p{
+    color:#ccc;
+    font-weight: 300;
+}
+.sec-safety-tips .ez_icon_list_container .ez_icon_list .ez_icon_list_icon i{
+    color: #ff9f02;
+}
+/************safety-tips End*************************/
+
+
+/************Testimonial************************/
+.sec-testimonial{
+    background-color: #222222;
+}
+.sec-testimonial .ez_container-full{
+ padding-left: 0;
+ padding-right: 0;
+}
+.sec-testimonial .ez_container-full .ez_row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.sec-testimonial .ez_container-full .ez_row .ez_column_full{
+    padding-left: 0;
+    padding-right: 0;
+}
+.sec-testimonial .ez_container-full .ez_row .ez_column_full .ez_image_container{
+    display: flex;
+}
+.sec-testimonial .ez_container-full .ez_row .ez_column_full.col-testimonial{
+    padding: 2rem 2rem 3rem 2rem;
+    border-top: 1px solid #2d2d2d;
+    border-bottom: 1px solid #2d2d2d;
+}
+.col-testimonial .sec-heading p{
+    color: #ff9f02;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.col-testimonial .sec-title p {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3.2rem;
+    line-height: 4rem;
+}
+.slider-cus-feedback .ez_carousel{
+    min-height: 260px;
+}
+.slider-cus-feedback .carousel-items-wrapper{
+    flex-direction: column;
+}
+.slider-cus-feedback .ez_carousel_item,
+.slider-cus-feedback .ez_carousel_item.active{
+ background-color:#222222;
+}
+.slider-cus-feedback .ez_carousel_item .ez_column_full.item{
+    text-align: left;
+    font-weight: 300;
+}
+.sec-testimonial .ez_icon_container>i{
+    font-size: 4rem;
+    color: #757575;
+}
+.sec-testimonial .avtar-container{
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    align-items: center;
+    gap: 1rem;
+}
+.sec-testimonial .avtar-container .ez_image_box_img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #757575;
+}
+
+.sec-testimonial .carousel-prev {
+    bottom: 0px;
+    top: auto;
+    left: auto;
+    right: 3.1rem;
+    position: absolute;
+    transform: none;
+    padding: 10px 15px;
+}
+.sec-testimonial .carousel-next {
+    bottom: 0px;
+    top: auto;
+    left: auto;
+    right: 0;
+    position: absolute;
+    transform: none; 
+    padding: 10px 15px;
+}
+.slider-cus-feedback .ez_text_container{
+    margin-top: 0;
+}
+.avtar-container .ez_image_box_content .ez_image_box_title{
+    color:#fff;
+    margin-bottom: 0;
+}
+.avtar-container .ez_image_box_content .ez_image_box_desc{
+    color: #757575;
+    margin-bottom: 0;
+}
+.img-col-display .ez_image_container{
+    height: 100%;
+}
+.img-col-display .ez_image_container img{
+    object-fit: cover;
+}
+
+/************End Testimonial************************/
+
+/************Team*************/
+.sec-team{
+    background-color: #222222;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.sec-team .sec-heading p {
+    color: #ff9f02;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+.sec-team .sec-title p{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    text-align: center;
+}
+.sec-team .ez_image_box_container {
+    background-color: #2b2b2b;
+    padding: 1rem 0 0 0;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, .1);
+}
+.sec-team .ez_image_box_container .ez_image_box_img {
+    display: flex;
+    flex-direction: column;
+}
+.sec-team .ez_image_box_container .ez_image_box_img img {
+    margin: 0;
+    border-radius: 5px 5px 0 0;
+}
+.sec-team .ez_image_box_container .ez_image_box_content {
+    border-top: 1px solid #3c3b3b;
+    padding: 1rem;
+    background-color: #272727;
+}
+.sec-team .ez_image_box_container .ez_image_box_title {
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+}
+.sec-team .ez_image_box_content .ez_image_box_desc {
+    color: #ccc;
+    font-weight: 300;
+    height: 40px;
+    text-align: center;
+}
+
+/************End Team*************/
+
+/***********Blog*************************/
+.sec-blog{
+    background-color: #222222;
+    padding-bottom: 3rem;
+}
+.sec-blog .sec-heading p {
+    color: #ff9f02;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+.sec-blog .sec-title p {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    text-align: center;
+}
+.news-card{
+    background-color: #2b2b2b;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, .1);
+    padding: 0;
+}
+.blog-post-date{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.blog-post-date .ez_icon_list{
+    margin-top: 0;
+}
+.blog-post-date .ez_icon_list .ez_icon_list_icon i{
+    font-size: 16px;
+}
+.blog-post-date .ez_icon_list .ez_icon_list_desc p{
+    color:#ccc;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.news-card .ez_image_box_img{
+    width: 200px;
+}
+.news-card .ez_image_box_img img{
+    object-fit: cover;
+    margin: 0;
+    width: auto;
+    height: 100%;
+    object-position: center;
+    border-radius: 5px 0 0 5px;
+}
+.news-card .ez_image_box_content{
+    padding: 1rem;
+}
+.news-card .ez_image_box_content .ez_image_box_title{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.news-card .ez_image_box_content .ez_image_box_desc{
+    color: #ccc;
+    font-weight: 300;
+}
+.news-card .ez_image_box_content button{
+    border: 2px solid #fff;
+    border-radius: 0;
+    background-color: #2b2b2b;
+}
+
+/***********Blog End*******************/
+
+/***********Footer*******************/
+.footer{
+    padding-top: 4rem;
+    background-color: #161616;
+}
+.ft-paragraph p{
+    margin-top: 1rem;
+    color: #cccccc;
+    font-weight: 300;
+}
+.footer .ez_social_container .ez_social_list>a{
+    background-color: #ccc;
+    border: 1px solid #ccc;
+}
+.footer .ez_social_container .ez_social_list a i{
+    color: #222222;
+}
+.footer .ez_column_full .ez_row{
+    justify-content: end;
+    margin-left: 8%;
+}
+.ft-info-card{
+    padding: 0;
+    margin-top: 0;
+}
+.ft-info-card .ez_icon_list{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+    margin-top: 0;
+}
+.ft-info-card .ez_icon_list .ez_icon_list_icon{
+    width: 3rem;
+    height: 3rem;
+    background-color: #f78b12;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.ft-info-card .ez_icon_list .ez_icon_list_icon i{
+    margin: 0;
+    color: #fff;
+}
+.ft-info-card .ez_icon_list .ez_icon_list_desc p{
+    color: #ccc;
+}
+.ft-info-card .ez_icon_list .ez_icon_list_desc p strong{
+    color: #fff;
+    font-size: 1.5rem;
+    display: block;
+}
+.ft-quick-links{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #272727;
+}
+.ft-quick-links p{
+    color:#fff;   
+}
+.ft-quick-links a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+}
+.ft-working-hour{
+    padding: 0;
+}
+.sec-copyright{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #272727;
+}
+.sec-copyright p{
+    text-align: center;
+    color: #ccc;
+    padding-bottom: 0.5rem;
+}
+
+/***********Footer End*******************/
+
+/**********Media Query**********************/
+
+
+@media screen and (max-width:1200px) {
+    .header{
+        background: linear-gradient(90deg, rgba(255, 159, 2, 1) 0%, rgb(255 159 2) 42%, rgba(34, 34, 34, 1) 42%, rgba(34, 34, 34, 1) 66.666%, rgba(34, 34, 34, 1) 100%);
+    }
+
+    /* ---------About ------- */
+    .col-end{
+        margin-top: 2rem;
+        padding-left: 0.8rem;
+    }
+
+    /* ---------About end------- */
+}
+
+
+@media screen and (max-width:991px) {
+    .ez_hambarger_wrapper{
+        justify-content: end;
+    }
+    .sec-hero .ez_heading_container p{
+        font-size: 3rem;
+    }
+    .sec-about .sec-title p{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .sec-services .sec-title p, 
+    .sec-safety-tips .sec-title p,
+    .col-testimonial .sec-title p, 
+    .sec-team .sec-title p,
+    .sec-blog .sec-title p{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .sec-testimonial .avtar-container .ez_image_box_img {
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .header{
+        background: linear-gradient(180deg, rgba(255, 159, 2, 1) 0%, rgb(255 159 2) 42%, rgba(34, 34, 34, 1) 42%, rgba(34, 34, 34, 1) 66.666%, rgba(34, 34, 34, 1) 100%);
+    }
+    .sec-hero .ez_heading_container p{
+        font-size: 2.5rem;
+    }
+    .head-lnk-group-right{
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-about .sec-title p{
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+    }
+    .sec-services .sec-title p, 
+    .sec-safety-tips .sec-title p, 
+    .sec-team .sec-title p,
+    .sec-blog .sec-title p{
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+    }
+    .sec-safety-tips img{
+        max-width: 14rem;
+        margin: 0 auto 2rem auto;
+    }
+    .sec-safety-tips .sec-title p{
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+        text-align: center;
+
+    }
+    .card{
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    .news-card .ez_image_box_img {
+        width: 100%;
+    }
+    .footer .ez_column_full .ez_row{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .sec-services .sec-title p,
+    .sec-safety-tips .sec-title p,
+    .col-testimonial .sec-title p,
+    .sec-team .sec-title p,
+    .sec-blog .sec-title p{
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+    
+}
+
+@media screen and (max-width:480px){
+    
+}
+
+

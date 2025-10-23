@@ -1,0 +1,1017 @@
+/*  
+Template Name: Business Service 2
+Template URI: https://templatepreview.link/ai/business_service_2/
+Description: Template for Lorem.
+Version: 1.0
+Author: Actovision
+Author URI: https://actovision.com/
+Fonts: Roboto:400,500,600,700|Inter:500,600,700
+*/
+
+/* top_header_sec */
+.top_header_sec{
+    padding: 5px 0 5px;
+    background: #fa360a;
+}
+.log_text p {
+    font-size: 30px;
+    color: #000000;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.ez_menu_items_wrapper{
+    justify-content: end;
+}
+.cleaning_navBar{
+        padding: 15px 0;
+}
+.header_btn button{
+    background: #fa360a;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 6px;
+    border: solid 1px #ffffff73;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+.top_call{
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+.top_call .ez_icon_text_link .ez_icon_text_link_icon i {
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 0;
+    margin-right: 5px;
+}
+.top_call .ez_icon_text_link .ez_icon_text_link_desc p {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+}
+.top_call .ez_icon_text_link{
+    margin: 0;
+}
+.social_cont{
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+.social_cont .ez_social_list > a {
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+}
+.social_cont .ez_social_list > a > i {
+    color: #ffffff;
+}
+.textalignrght{
+    text-align: right;
+}
+/* top_header_sec */
+/* header_sec */
+.header_sec{
+    padding: 15px 0;
+}
+.red_btn button{
+    background: #fa360a;
+    color: #fff;
+    padding: 15px 26px;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 6px;
+    border: solid 1px #f22e02;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+/* header_sec */
+/* banner_sec */
+.bannercar img{
+    margin: 0 auto;
+    display: block;
+    width: 700px;
+    height: 358px;
+    object-fit: cover;
+}
+.alignc {
+    align-items: center;
+}
+
+.bnr-cont {
+    padding: 0;
+}
+.hero_bg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px 0 180px 290px;
+    margin: 0;
+    
+}
+.banner_head p{
+    color: #fff;
+    font-size: 58px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: -0.8px;
+    line-height: 68px;
+    font-family: 'Roboto', sans-serif;
+}
+.paragraph_banner p{
+    color: #fff;
+    text-shadow: none;
+    margin: 24px 0 30px 0;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    font-family: 'Roboto', sans-serif;
+}
+/* banner_sec */
+/* logo_sec */
+.logo_sec{
+    padding: 80px 0;
+}
+.sub_head p{
+    font-size: 17px;
+    letter-spacing: 4px;
+    color: #EF1D26;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.main_head p{
+    font-size: 45px;
+    color: #111111;
+    font-weight: 700;
+    line-height: 50px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.brand_box{
+	padding:0;
+}
+.brand_box .ez_image_box_img > img{
+	margin:0;
+}
+.brand_box .ez_image_box_content .ez_image_box_title{
+    color: #111111;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.2;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* logo_sec */
+/************* Services ********************/
+.srvc-imgbx {
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 40px 5px #ffe8e4;
+    transition: 0.3s;
+}
+.srvc-imgbx .ez_image_box_img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fbeae7;
+    margin-bottom: 20px;
+}
+.srvc-imgbx .ez_image_box_img>img {
+    margin: 0;
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+}
+.srvc-imgbx .ez_image_box_content .ez_image_box_title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.srvc-imgbx .ez_image_box_content .ez_image_box_desc {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #4d4d4d;
+}
+.srvc-imgbx .ez_image_box_content button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #fa360a;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    padding-left: 0;
+    background: transparent;
+}
+.srvc-imgbx:hover {
+    transform: translateY(-20px);
+    box-shadow: 0px 5px 15px rgb(47, 25, 21, .2);
+}
+/*************End Services ********************/
+/* abt_sec */
+.srvc{
+    padding-top: 60px;
+    padding-bottom: 70px;
+    background-color: #fff4f2;
+}
+
+.abt_sec{
+      padding: 100px 0 80px 0;
+}
+.abtsubhead p{
+    font-size: 17px;
+    color: #fa360a;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+.abtmainhead p{
+    font-size: 45px;
+    color: #111111;
+    font-weight: 700;
+    line-height: 58px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+}
+.imgcenter img{
+    margin: 0 auto;
+    display: block;
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+}
+.abtpara p{
+    font-size: 16px;
+    color: #66696e;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* abt_sec */
+
+
+/***************/
+.box-image {
+    width: 100%;
+    max-width: 48px;
+}
+.srv-box{
+    padding: 0;
+    gap: 20px;
+}
+.srv-box .ez_image_box_desc{
+    font-size: 16px;
+    color: #66696e;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.ez_icon_list_container .list-check-icon .ez_icon_list_icon i{
+    font-size: 16px;
+    color:#fa360a;
+}
+.ez_icon_list_container .list-check-icon .ez_icon_list_desc p{
+    font-size: 16px;
+    color: #66696e;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.srv-box .ez_image_box_content .ez_image_box_btn{
+    background-color: #fa360a;
+    border: none;
+}
+.round-corner-10 img{
+    border-radius: 8px;
+
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+/***************
+/* testimon_sec */
+.testimon_sec{
+    padding: 80px 0;
+}
+.myrev_box{
+    border: none;
+    border-radius: 0;
+    padding: 10px 15%;
+    background-color: #ffffff;
+}
+.myrev_box .ez_testimonial_box_content .ez_testimonial_desc .ez_testimonial_content {
+    font-size: 18px;
+    color: #111111;
+    font-family: 'Roboto', sans-serif;
+}
+.myrev_box  .ez_testimonial_box_img img {
+    border: solid 1px #dc143c14;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+.myrev_box .ez_testimonial_box_content .ez_testimonial_name {
+    font-size: 26px;
+    letter-spacing: -0.3px;
+    line-height: 28px;
+    margin: 10px 0;
+    font-weight: 500;
+    text-shadow: none;
+    color: #252d40;
+    font-family: 'Roboto', sans-serif;
+}
+/* testimon_sec */
+/* team_sec */
+.team_sec{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fff4f2;
+}
+.teambox{
+        padding: 20px;
+    margin-bottom: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 40px 5px #ffe8e4;
+}
+.teambox .ez_team_box_content .ez_team_name{
+    font-size: 17px;
+    color: #fa360a;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+.teambox .ez_team_social a {
+    border: 1px solid #575757;
+}
+.teambox .ez_team_box_content .ez_team_desc{
+        color: #111111;
+    font-family: 'Roboto', sans-serif;
+}
+.teambox .ez_team_social a i {
+    font-size: 18px;
+    color: #111111;
+}
+.teambox .ez_team_box_img > img {
+    width: 100px;
+    height: 100px;
+    border: none;
+    object-fit: cover;
+}
+/* team_sec */
+
+/*********Contact*************/
+.contact-sec{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.crd-contact{
+    flex-direction: column;
+    padding-top: 30px;
+    border-radius: 12px;
+    max-width: 768px;
+    overflow: hidden;
+    box-shadow: 0 0 20px 2px #f3e6e3;
+}
+.crd-contact .ez_row{
+    width: 100%;
+    margin: 0;
+}
+.crd-contact .col-left{
+    padding-left: 0;
+}
+.crd-contact .main_head p{
+    font-size: 30px;
+}
+.crd-contact .col-left .ez_image_container{
+    display: flex;
+}
+.crd-contact .col-left .ez_image_container img{
+width: 308px;
+height: 301px;
+object-fit: cover;
+}
+.col-right .ez_input_container{
+    position: relative;
+}
+.col-right .ez_input_container .ez_form-label{
+    position: absolute;
+}
+.col-right .ez_input_container .ez_form-control{
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.col-right .ez_input_container .ez_form-control:focus{
+    box-shadow: none;
+}
+.ez_button_container.ez_form_btn.red_btn button{
+    background: #fa360a;
+    color: #fff;
+    padding: 12px 26px;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 6px;
+    border: solid 1px #f22e02;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+/*********End Contact*************/
+
+/*********** faq-sec *******************/
+.row-faq-bg{
+    padding: 60px 320px 50px 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.faq-sec .main_head p{
+    text-align: left;
+    color:#fff;
+}
+.faq-sec .ez_accordion_container .ez_accordion_item{
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+.faq-sec .ez_accordion_container .ez_accordion_item .ez_accordion_header{
+    background-color: #fbeae7;
+}
+.faq-sec .ez_accordion_container .ez_accordion_item.ez_accordion_active .ez_accordion_header .ez_accordion_header_text{
+    color: #212529;
+}
+.faq-sec .ez_accordion_container .ez_accordion_item.ez_accordion_active .ez_accordion_header i{
+    color: #212529;
+}
+.faq-sec .ez_accordion_container .ez_accordion_item .ez_accordion_header .ez_accordion_header_text{
+    font-size: 18px;
+}
+.faq-sec .ez_accordion_container .ez_accordion_item .ez_accordion_body{
+    background-color: #ffffff;
+}
+/***********End faq-sec *******************/
+
+
+
+/* footer_sec */
+.footer_sec{
+    padding: 60px 0 30px 0;
+    background: #fff;
+}
+.foothead p{
+    margin-bottom: 15px;
+    font-weight: 600;
+    position: relative;
+    font-size: 21px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 18px;
+}
+.footpara p{
+    margin: 0 0 10px;
+    font-size: 17px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.footlist {
+    border: none;
+    border-radius: 0;
+    margin: 15px 0;
+    padding: 0;
+}
+.footlist .ez_icon_list .ez_icon_list_desc p {
+    margin: 0 0 10px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.footlist .ez_icon_list {
+    margin: 0;
+}
+.footlist .ez_icon_list .ez_icon_list_icon i {
+    font-size: 18px;
+    color: #ef1d26;
+    margin-top: 6px;
+}
+.footlink a{
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #212529;
+    text-decoration: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+
+.log_textf p {
+    font-size: 30px;
+    color: #212529;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+/* footer_sec */
+/* btm_footer_sec */
+
+.copytxt p{
+    font-size: 14px;
+    color: #212529;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+	border-top:1px solid #ddd;
+	padding-top:10px;
+}
+.footsocial {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+.footsocial .ez_social_list > a{
+    height: 38px;
+    width: 38px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 12px;
+    background: #ffffff;
+    color: #fa360a;
+    border: 1px solid #ff8a6f;
+}
+.footsocial .ez_social_list > a > i {
+    color: #fa360a;
+    font-size: 18px;
+}
+.rightalignfoot{
+    text-align: right;
+}
+.carimgnew img{
+        width: 691px;
+    height: 392px;
+    object-fit: cover;
+}
+.fgap{
+    gap: 20px;
+}
+.footlist .ez_icon_text_link .ez_icon_text_link_desc p {
+    font-size: 16px;
+    color: #212529;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.footlist .ez_icon_text_link .ez_icon_text_link_icon i {
+    font-size: 18px;
+    color: #fa360a;
+    margin-top: 0;
+}
+/* btm_footer_sec */
+
+
+
+/* responsive */
+@media(max-width:1601px) {
+    .hero_bg{
+        padding: 100px 0 100px 146px;
+    }
+    .row-faq-bg{
+        padding: 60px 130px 50px 130px;
+    }
+
+}
+
+@media(max-width:1460px) {
+    .hero_bg {
+        padding: 100px 0 100px 72px;
+    }
+    .row-faq-bg {
+        padding: 60px 100px 50px 100px;
+    }
+}
+@media(max-width:1400px){
+    .carimgnew img {
+        height: 311px;
+    }
+    .imgcenter img {
+        height: 416px;
+    }
+    .top_header_sec {
+        background-size: cover;
+    }
+    .banner_head p {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .bannercar img {
+        width: 700px;
+        height: 318px;
+    }
+    .teambox{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .teambox.ez_teamBox_container_left .ez_team_box_content{
+        text-align: center;
+    }
+    .teambox.ez_teamBox_container_right .ez_team_box_content{
+        text-align: center;
+    }
+
+}
+
+@media(max-width:1199px){
+    .bannercar img {
+        width: 700px;
+        height: 290px;
+    }
+    .red_btn button {
+        font-size: 15px;
+    }
+    .abtmainhead p {
+        font-size: 35px;
+        line-height: 45px;
+        margin-bottom: 15px;
+    }
+    .abtsubhead p {
+        font-size: 15px;
+    }
+    .tick_icon {
+        margin: 15px 0;
+    }
+    
+    .main_head p {
+        font-size: 40px;
+        line-height: 42px;
+        margin-bottom: 45px;
+    }
+    .sub_head p {
+        font-size: 15px;
+    }
+    .carname p {
+        font-size: 24px;
+        margin: 18px 0;
+    }
+    .icondiv .ez_icon_list .ez_icon_list_desc p {
+        font-size: 16px;
+    }
+    .icondiv .ez_icon_list .ez_icon_list_icon i {
+        font-size: 18px;
+        color: #EF1D26;
+        margin-top: 4px;
+    }
+    .small_btn button {
+        font-size: 15px;
+    }
+    .innerdiv {
+        padding: 20px;
+    }
+    .load_center_btn button {
+        font-size: 16px;
+        margin: 30px auto auto auto;
+    }
+    .myrev_box {
+        padding: 0;
+        margin: 0;
+    }
+    .blogbox {
+        padding: 15px;
+    }
+    .blogbox .ez_image_box_content .ez_image_box_title {
+        font-size: 20px;
+        margin-bottom: 0px;
+        line-height: 26px;
+        margin-top: 17px;
+    }
+    .blogbox .ez_image_box_content button {
+       font-size: 14px;
+       margin-top: 6px;
+       margin-bottom: 10px;
+    }
+    .onebox .ez_image_box_content .ez_image_box_desc {
+        line-height: 26px;
+        font-size: 16px;
+    }
+    .onebox {
+        padding: 25px;
+    }
+    .footpara p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .ez_form-control {
+        padding: 12px 15px;
+        font-size: 13px;
+    }
+    .row-faq-bg {
+        padding: 60px 20px 50px 50px;
+    }
+        
+}
+@media(max-width:991px){
+    .cleaning_navBar .ez_container{
+        max-width: 100%;
+    }
+    .cleaning_navBar .ez_hambarger_wrapper{
+        justify-content: end;
+    }
+    .teambox{
+text-align: center;
+}
+.teambox.ez_teamBox_container_left{
+    text-align: center;
+}
+    .bannercar img {
+    width: 700px;
+    height: 358px;
+}
+.ez_team_box_container .ez_team_social a{
+    width: 32px;
+    height: 32px;
+}
+.teambox .ez_team_social a i{
+    font-size: 14px;
+}
+    .foothead p {
+        font-size: 26px;
+    }
+    .banner_head p {
+        font-size: 55px;
+        line-height: 68px;
+    }
+    .red_btn button {
+        font-size: 16px;
+    }
+    .main_head p {
+        font-size: 42px;
+        line-height: 48px;
+        margin-bottom: 40px;
+    }
+    .logo_sec {
+        padding: 60px 0;
+    }
+    .abtmainhead p {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .tick_icon {
+        margin: 22px 0;
+    }
+   
+    .abt_sec {
+        padding: 60px 0;
+    }
+
+    .innerdiv {
+        padding: 13px;
+    }
+    .number_sec {
+        padding: 60px 0;
+    }
+    .blogbox .ez_image_box_img > img {
+        width: 100%;
+    }
+    .blogbox {
+        padding: 25px;
+    }
+    .blogbox .ez_image_box_content .ez_image_box_title {
+        font-size: 25px;
+        line-height: 32px;
+        margin-top: 25px;
+    }
+    .blogbox .ez_image_box_content .ez_image_box_desc {
+        line-height: 26px;
+        font-size: 16px;
+    }
+    .blogbox .ez_image_box_content button {
+        font-size: 16px;
+    }
+    .copytxt p {
+        font-size: 15px;
+    }
+    .imgcenter img {
+    height: 500px;
+}
+    .hero_bg{
+        padding: 70px 0;
+    }
+    .row-faq-bg {
+        padding: 60px 10px 50px 60px;
+    }
+}
+@media(max-width:767px){
+    .bannercar img {
+    width: 700px;
+    height: auto;
+}
+    .banner_head p {
+        font-size: 42px;
+        line-height: 44px;
+    }
+    .paragraph_banner p {
+        margin: 20px 0 26px 0;
+        font-size: 16px;
+    }
+  
+    .rightalignfoot {
+        text-align: left;
+    }
+    .banner_sec {
+        background-position: left center;
+    }
+    .main_head p {
+        font-size: 35px;
+        line-height: 38px;
+        margin-bottom: 35px;
+    }
+    .abtmainhead p {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .nummainhead p {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .load_center_btn button {
+        margin: 20px auto auto auto;
+    }
+    .copytxt p {
+        margin-bottom: 10px;
+		text-align:center;
+    }
+	.brand_box .ez_image_box_content .ez_image_box_title{
+		margin-bottom:0;
+	}
+	.textalignrght {
+    text-align: center;
+   }
+   .top_call .ez_icon_text_link{
+	   justify-content: center;
+   }
+   .onebox {
+		text-align: center;
+    }
+	.footsocial{
+		text-align: left;
+        margin-bottom: 10px;
+	}
+    .crd-contact .col-left{
+        padding-right: 0;
+    }
+    .col-right .red_btn{
+        margin-bottom: 50px;
+    }
+    .crd-contact .col-left .ez_image_container{
+        justify-content: center;
+    }
+    .crd-contact .col-left .ez_image_container img{
+        width: 248px;
+        height: 241px;
+    }
+	
+}
+@media(max-width:575px){
+    .fgap {
+    gap: 0;
+    flex-wrap: wrap;
+}
+
+.top_header_sec .col-xsmall-6:nth-child(2){
+    text-align: right;
+
+}
+.cleaning_navBar {
+    padding: 6px 0;
+}
+    .imgcenter img {
+    height: 255px;
+    object-fit: contain;
+}
+
+
+    .social_cont{
+        text-align: center;
+    }
+    .blogbox {
+        padding: 15px;
+    }
+    .blogbox .ez_image_box_content .ez_image_box_title {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .myrev_box .ez_testimonial_box_content .ez_testimonial_desc .ez_testimonial_content {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .onebox {
+        padding: 20px;
+    }
+    .team_sec {
+        padding: 50px 0 40px;
+    }
+    
+    .testimon_sec {
+        padding: 50px 0;
+    }
+    .footer_sec {
+        padding: 40px 0 0px 0;
+    }
+
+    .abt_sec {
+        padding: 50px 0;
+    }
+    .srvc {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .contact-sec {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .faq-sec{
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .faq-sec .main_head p{
+        text-align: center;
+        margin-bottom:10px;
+    }
+    .row-faq-bg {
+        padding: 60px 10px 50px 10px;
+    }
+	
+}
+@media(max-width:420px){
+    .banner_head p {
+        font-size: 35px;
+        line-height: 38px;
+    }
+    .paragraph_banner p {
+        margin: 20px 0 20px 0;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .main_head p {
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom: 30px;
+    }
+    .sub_head p {
+        font-size: 14px;
+    }
+    .abtsubhead p {
+        font-size: 14px;
+        margin: 0;
+    }
+    .abtmainhead p {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .numsubhead p {
+        font-size: 14px;
+        margin: 0;
+    }
+    .nummainhead p {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .copytxt p {
+        font-size: 13px;
+    }
+    .top_call .ez_icon_list .ez_icon_list_desc p {
+      font-size: 13px;
+    }
+    .red_btn button {
+        font-size: 13px;
+    }
+}
+/* responsive */
+

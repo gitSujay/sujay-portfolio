@@ -1,0 +1,42 @@
+.template2 .text-theme,  
+.template2 .hero-text h1, 
+.template2 .section-heading,
+.template2  .booking-section .display-4,
+.template2 a, 
+.template2 .text-theme, .template2 .main-nav.fixed-top a{color:#336699 !important;}
+
+.template2 .btn-theme { background-color: #336699 !important; color: #ffffff !important;}
+.template2 .btn-theme:hover{border-color: #336699; background-color: #fff !important; color:#336699 !important;}
+.template2 .bg-theme .btn, .template2 .ourBots .card:hover .btn-theme { background-color: #fff !important;  color: #336699 !important;}
+.template2 .main-nav a, .template2 header a{color:#fff !important;}
+.template2 .main-nav a:hover {color:#90b1d2 !important;}
+
+.overlay{ background-color: rgba(51, 102, 153, 0.9); }
+.overlay .hero-text{color:#fff; padding: 0px 1rem;}
+.overlay p{font-size: 1.2rem; }
+.template2 header,  .template2 .main-nav, .template3 .main-nav{background-color: transparent;}
+.template2 .ourBots{position: relative; margin-top: -10rem;}
+.template2 .hero-text h1, 
+.template2 .ourBots .bg-theme .card-title, .template2 .ourBots .bg-theme .card-title:hover{color:#fff !important;}
+
+.btn-video-play{ color: #336698 !important; }
+.template2 .ourBots .card:hover{    background-color: #336699; box-shadow: 0px 0px 28px 1px rgba(0, 0, 0, 0.2);  z-index: 6;}
+.template2 .ourBots .card:hover .card-title {background-color: #336699; color:#fff !important;}
+.template2 .bg-theme{background-color:#336698; color: #fff;}
+.close-modal{position: absolute; right: -26px; top:-26px; background-color: transparent; color: #fff; border: 2px solid #fff; border-radius: 50%; width: 32px;
+    height: 32px; box-shadow: 0px 0px 2px #000;}
+.template2 .panel-header li {background-color: #e5ecf2;}
+.template2 .ft-social a, .template2 .card-title{color: #336699 !important;}
+.template2 .ft-social a:hover{background-color: #C8D4E1;}
+.template2 .chatBoat-header{ background-color: #82a1c1; color:#fff;} 
+.template2 footer a{color: #C8D4E1 !important;}
+.template2 footer a:hover{color: #fff !important;}
+.chatBoat-header{background-color: #336699; color: #2ff9fc; }
+
+@media (max-width:991px){
+    .template2 #slideContent .left-nav a{color:#336699 !important;}
+}
+
+@media (max-width:575px){
+    .template2 .ourBots{margin-top: -5rem;}
+}

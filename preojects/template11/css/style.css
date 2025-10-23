@@ -1,0 +1,589 @@
+@font-face {
+    font-family: 'Actovision';
+    src: url('../fonts/Actovision-Black.eot');
+    src: url('../fonts/Actovision-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Actovision-Black.woff2') format('woff2'),
+        url('../fonts/Actovision-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Actovision';
+    src: url('../fonts/Actovision-BlackItalic.eot');
+    src: url('../fonts/Actovision-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Actovision-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Actovision-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Actovision';
+    src: url('../fonts/Actovision-Bold.eot');
+    src: url('../fonts/Actovision-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Actovision-Bold.woff2') format('woff2'),
+        url('../fonts/Actovision-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Actovision';
+    src: url('../fonts/Actovision-ExtraBoldItalic.eot');
+    src: url('../fonts/Actovision-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Actovision-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Actovision-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Actovision';
+    src: url('../fonts/Actovision-BoldItalic.eot');
+    src: url('../fonts/Actovision-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Actovision-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Actovision-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Actovision';
+    src: url('../fonts/Actovision-ExtraBold.eot');
+    src: url('../fonts/Actovision-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Actovision-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Actovision-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Actovision';
+    src: url('../fonts/Actovision-ExtraLight.eot');
+    src: url('../fonts/Actovision-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Actovision-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Actovision-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Actovision';
+    src: url('../fonts/Actovision-Italic.eot');
+    src: url('../fonts/Actovision-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Actovision-Italic.woff2') format('woff2'),
+        url('../fonts/Actovision-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Actovision';
+    src: url('../fonts/Actovision-ExtraLightItalic.eot');
+    src: url('../fonts/Actovision-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Actovision-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/Actovision-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Actovision';
+    src: url('../fonts/Actovision-Medium.eot');
+    src: url('../fonts/Actovision-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Actovision-Medium.woff2') format('woff2'),
+        url('../fonts/Actovision-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Actovision';
+    src: url('../fonts/fonts/Actovision-MediumItalic.eot');
+    src: url('../fonts/fonts/Actovision-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fonts/Actovision-MediumItalic.woff2') format('woff2'),
+        url('../fonts/fonts/Actovision-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Actovision';
+    src: url('../fonts/Actovision-LightItalic.eot');
+    src: url('../fonts/Actovision-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Actovision-LightItalic.woff2') format('woff2'),
+        url('../fonts/Actovision-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Actovision-Light.eot');
+    src: url('../fonts/Actovision-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Actovision-Light.woff2') format('woff2'),
+        url('../fonts/Actovision-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Actovision';
+    src: url('../fonts/Actovision-Regular.eot');
+    src: url('../fonts/Actovision-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Actovision-Regular.woff2') format('woff2'),
+        url('../fonts/Actovision-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Actovision';
+    src: url('../fonts/Actovision-SemiBold.eot');
+    src: url('../fonts/Actovision-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Actovision-SemiBold.woff2') format('woff2'),
+        url('../fonts/Actovision-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Actovision';
+    src: url('../fonts/Actovision-ThinItalic.eot');
+    src: url('../fonts/Actovision-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Actovision-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Actovision-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Actovision';
+    src: url('../fonts/../fonts/Actovision-SemiBoldItalic.eot');
+    src: url('../fonts/../fonts/Actovision-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/../fonts/Actovision-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/../fonts/Actovision-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Actovision';
+    src: url('../fonts/Actovision-Thin.eot');
+    src: url('../fonts/Actovision-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Actovision-Thin.woff2') format('woff2'),
+        url('../fonts/Actovision-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/**Custom theme color**/
+:root {
+    --inst-theme-color: #081839;
+    --inst-theme-color2: #0056d5;
+    --inst-theme-color3: #e0f7fd; 
+    --inst-theme-color4: #e0f1ff; 
+    --bs-warning: #f79701;
+}
+
+
+/**Common CSS**/
+html {scroll-behavior: smooth;}
+body{ font-family: 'Actovision'; font-style: normal; font-size: 18px; font-weight: 400; overflow-x: hidden; color: var(--inst-theme-color);}
+h1,h2,h3,h4,h5,h6{font-weight: 500;}
+.h6, h6 { font-size: 1.25rem;}
+.background{position: fixed; top: 0rem; right: 0rem; bottom: 0rem; left: 0rem;  background-image: linear-gradient(#e0f1ff 10%, #fff); z-index: -1;}
+.btn-success-gradient{ color:var(--bs-white); background-color: var(--inst-green-color); padding: .8rem 1.8rem;  position: relative; overflow: hidden; 
+    font-weight: 600; z-index: 2; text-wrap: nowrap; border-radius: 30px; transition: all 0.3s ease-in-out;}
+.btn-success-gradient:hover{color:var(--bs-white); transform: scale(1.1);}
+.btn-success-gradient .btn-overlay{content:''; height: 100px;  position: absolute; bottom: 0px;  right: 0px; left: 0px; top: 70px; background-color: var(--inst-theme-color); 
+    z-index: -1; transition: all 0.3s ease-in-out;}
+.btn-success-gradient:hover .btn-overlay{top:0px; transition: all 0.3s ease-in-out;}
+.txt-green{color: var(--inst-green-color)}
+.txt-orange{color: var(--inst-orange-color)}
+.txt-theme-color-alter{color:var(--inst-theme-color2)}
+.card-title{font-size: 1.4rem; font-weight: 400;}
+.txt-offer{color:var(--bs-gray-dark); font-size: 1.2rem; font-weight: 300;}
+.bg-theme{ background-color: var(--inst-theme-color); padding: 4rem 0rem;}
+.hyper-link{ position: absolute; right: 76px; line-height: 0px; visibility: hidden;    margin-top: -4px; }
+.hyper-link::after{ content: "\F402"; font-family: 'bootstrap-icons'; position: absolute; transform: rotate(90deg); right: -75px;}
+.main-nav .btn-theme:hover { background-color: var(--inst-theme-color2); border-color: var(--inst-theme-color2); color: var(--bs-white);}
+   
+.btn-theme{width: 248px; height: 52px; font-weight: 600; position: relative;  background-color: var(--inst-theme-color2); text-indent: 30px; 
+    color: var(--bs-white); padding: 0.77rem 2.5rem 0.77rem 0rem; text-wrap: nowrap; } 
+.btn-theme span{position: relative; z-index: 1;}
+.btn-theme .bg-overlay{z-index: 0;}
+.btn-theme:hover{color:var(--bs-gray-dark); background-color: var(--bs-warning); }
+.btn-theme:hover span{margin-left: -.5rem;}
+.btn-theme:hover .hyper-link{visibility: visible;}
+.btn-theme:hover .bg-overlay{width: 100%;}
+.btn-d-block-lg-up{margin-top: 2rem; margin-bottom: 1rem; text-align: center;}
+.d-block-lg-down{display: none; margin-top: 1rem; margin-bottom: 3rem; text-align: center;}
+.sec-heading{text-align: center;}
+
+
+
+ 
+.header{padding: .4rem 1rem; text-align: center; font-size: .8rem; font-weight: 600;}
+.navbar-brand.logo{font-weight: 700; color: var(--inst-theme-color2);}
+.logo:-webkit-any-link:focus-visible{outline-offset: none;}
+.offer-text{margin-bottom: 0px;}
+.off{color: var(--inst-theme-color2); margin: 0px 6px; position: relative; z-index: 2; font-size: 1rem;}
+.main-nav.fixed{position:fixed; background-color: var(--bs-white); top: 0px; left: 0px; right: 0px; padding-top: 0.5rem; padding-bottom: 0.5rem; overflow: hidden; 
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1); z-index: 99; animation: anm-slide 1s;}
+.main-nav .nav-item{ display: flex; align-items: center;  }
+.main-nav .nav-link{color: var(--bs-gray-dark); font-size: 1rem; padding: 0.4rem 1rem !important; margin-right: 0.4rem; position: relative; 
+    font-weight: 500; z-index: 2; transition: all 0.3s ease-in-out;}
+.bg-overlay{position: absolute; background-color: var(--inst-theme-color2); width: 0px; text-align: center; margin: auto; left: 0px; right: 0px; bottom: 0px; 
+    height: 2px; border-radius: 5rem; z-index: -1; transition: all 0.3s ease-in-out;}
+.main-nav .nav-link:hover{color:var(--inst-theme-color2);}
+.main-nav .nav-link:hover .bg-overlay{width: 100%;left: 0px;}
+.navbar-toggler div{width: 1.6rem; height: 2px; background-color: var(--inst-theme-color2);}
+.navbar-toggler .middle-line{margin: 0.4rem 0rem;}
+.main-nav.fixed::before{ min-width: 16rem; height: 12rem; box-shadow: 2px 5px 14px rgba(0,0,0,.1);}
+
+@keyframes anm-slide { 
+    from {margin-top: -400px;} to {margin-top: 0px;}
+    }
+
+/******Hero Section**********/
+.hero-image{position: relative; padding-top: 2rem; }
+.hero-container{background-color: var(--bs-white); color: var(--bs-white); padding-left: 1rem; padding-right: 1rem; position: relative; border-radius: 1rem; 
+    overflow: hidden; z-index: 1;  }
+.hero-container::before{content: ''; position: absolute; top:0rem; right: 0rem; bottom: 0rem; left:0rem; background-image: url(../images/hero-bg.webp); 
+    background-size: cover; background-position: center; filter: blur(3px); -webkit-filter: blur(3px); -moz-filter: blur(3px); -ms-filter: blur(3px); 
+    -o-filter: blur(3px); z-index: -1;}
+.hero-container::after{content: ''; position: absolute; top:0rem; right: 0rem; bottom: 0rem; left:0rem; background-color: rgba(0,58,145,.9);
+    z-index: -1;}
+.banner-text{padding-left: 2rem;}
+.ratting {color:var(--bs-warning); font-size: 1rem;}
+.ratting li{margin-right: 0.1rem !important;}
+.count-review{font-size: 1.1rem; font-weight: inherit; color:var(--bs-white);}
+.txt-hero-heading{ font-size: 3rem; font-weight: 300; color: var(--bs-white); margin-bottom: 2rem;}
+.txt-hero-heading strong{font-weight: 600;}
+.hero-container .bi-check2-circle{font-size: 1.4rem; margin-right: 0.4rem;}
+.click{position: relative;}
+.click .bi-hand-index-thumb-fill::after{ content: ''; position: absolute; width: 2rem; height: 2rem; border: 1px solid rgba(48, 112, 0, .6); border-radius: 50%;
+    right: 1.3rem; margin-top: -0.2rem; background-color: rgba(16, 16, 16, 0.21); z-index: -1;}
+.payment-type{max-width: 300px; margin-top: 0.4rem;}
+.txt-high-light{position: relative;}
+.txt-high-light::before{content: ''; position: absolute; width: 21rem; height: 1.8rem; background-color: var(--bs-warning); top: 0px; left: 2rem; z-index: -1; border-radius: 5px 9px 10px 11px;
+    transform: rotate(1deg);}
+.banner-container{position: relative; text-align: center; margin: auto; max-width: 34rem; margin-top: 1rem;}
+.btn-banner-container{ text-align: center; margin-bottom: 1.5rem;}
+.banner-text .txt-offer{color:var(--bs-white);}
+
+/*****section 2********/
+.advantage{padding-top: 2rem; padding-bottom: 5rem;}
+.advantage .card{fill:var(--inst-theme-color2); text-align: left; overflow: hidden; border-radius: 1rem; position: relative; border-color: var(--inst-theme-color3); transition: all 0.3s;} 
+.card-icon{position: relative; padding: 1rem; z-index: 1;}
+.sl-number{position: absolute; font-weight: bolder; font-size: 7rem; opacity: .05; right: -0.5rem; bottom: -3.9rem; font-family: sans-serif; text-shadow: 3px 4px 0px #000;}
+.advantage .card-header{background-color: transparent; border:none; z-index: 1;}
+.advantage .card-body{background-color: transparent; height: 14rem; z-index: 1;}
+.advantage .card-title{margin-bottom: 1.5rem; font-weight: 500; z-index: 1;}
+.adv-icon{ width: 3.5rem;}
+.advantage .hover-shape{ top: -2rem; left: 1rem;}
+.adv-card{ height: 18.8rem; object-fit: contain; z-index: 1;}
+
+
+/****** About Product **********/
+.sec-abt-product{margin-top: 1rem; margin-bottom: 2rem;}
+.sec-abt-product .card{padding: 1.5rem 2rem; border-color: var(--inst-theme-color3); border-radius: 1rem;}
+.img-xs-7{max-width: 100%; border-radius: 1rem;}
+.collage{text-align: center;}
+
+
+/****** Satisfied Customer **********/
+.satisfied-customers{position: relative; padding: 0px 3rem;}
+.satisfied-customers .owl-item .card{border:none; overflow: hidden; border-radius: 0px;}
+.satisfied-customers .owl-item .card img{width: 100%; height: 100%; max-height: 10rem;  min-height:18rem; object-fit: cover; object-position:top center;}
+.satisfied-customers .owl-nav{font-size: 2rem; background-color: transparent;}
+.satisfied-customers .owl-nav .owl-prev{position: absolute; left: 0px; top: 50%; color: var(--inst-theme-color) !important;}
+.satisfied-customers .owl-nav .owl-next{position: absolute; right: 0px; top: 50%; color: var(--inst-theme-color) !important;}
+.satisfied-customers .owl-nav .owl-prev:hover , .satisfied-customers .owl-nav .owl-next:hover  {font-size: 2rem; background-color: transparent; color:var(--inst-theme-color2) !important;}
+
+
+/*********pain-section**************/
+.pain-section{margin-top: 4rem; margin-bottom: 2rem;}
+.pain-section .card{ position: relative; margin-bottom: 1.5rem; transition: all .3s ease-in-out; border:1px solid var(--inst-theme-color3);
+    border-radius: 1rem; overflow: hidden; z-index: 1; }
+.pain-section .card-img-top { text-align: center; }
+.pain-section .card-img-top img{width: 100%; object-fit: cover; max-width: 418px; height: 300px; overflow: hidden; background-position: center center;}
+.pain-section .card-title{font-size: 1.5rem; font-weight: 500;}
+.pain-section .sec-heading {margin-bottom: 1.4rem;}
+.pain-section .card-body{height: 100%; min-height: 12rem; z-index: 1;}
+.pain-section .hover-shape{opacity: .8;}
+.pain-section .card:hover .hover-shape{  width: calc(100% + 1rem); height: 100%; top: 0rem; left: 0rem; transform: rotate(0deg);}
+
+
+/**********Specialties Section***********************/
+.panel-heading{font-size: 1.5rem; margin-bottom: 1.1rem; position: relative; z-index: 1;  }
+.specialties .row{margin-left: 0rem; margin-right: 0rem;}
+.specialties .card { flex-direction: row; background-color: var(--bs-white);  border-radius: 8px; padding: 1rem; margin-bottom: 1rem; width: 49%;
+    border: 1px solid var(--inst-theme-color3); position: relative; overflow: hidden; z-index: 1;}
+.specialties .card:nth-child(odd){margin-right: 1rem;}
+.icon-spl-card{ margin-bottom: 1rem; text-align: center; z-index: 1;}
+.overlay{position: absolute; width: 100%; background-color: var(--inst-theme-color2); bottom: 0px; left:0px; right: 0px; height: 0px; transition: all .3s ease-in-out; z-index: -1;}
+.ico-spl{width: 2.5rem; fill: var(--inst-theme-color2);}
+.specialties .card p{position: relative; z-index: 1;}
+
+
+/**** Device For ******/
+.sec-device{ padding-top: 4rem; padding-bottom: 3rem;}
+.usesFor{display: flex; flex-wrap: wrap; justify-content: space-between;}
+.usesFor .title{position: relative; margin-top: 1rem; margin-bottom: 0rem; z-index: 1;  }
+.pain-icon{background-color: var(--bs-white); width: 16%; padding: 1rem; border-radius: 0.5rem; border: 1px solid var(--inst-theme-color4);
+    fill: var(--inst-theme-color2); position: relative; overflow: hidden;}
+.hover-shape{position: absolute; width: 4.5rem; height: 4.5rem; background-color: var(--inst-theme-color4); top: -1.8rem; margin-left: -0.2rem;
+     border-radius: .5rem; transform: rotate(45deg); --webkit-transform: rotate(45deg); --moz-transform: rotate(45deg); --ms-transform: rotate(45deg);
+    --o-transform: rotate(45deg); z-index: 0;  transition: all 0.5s;}
+.usesFor svg{position: relative; width: 3.5rem; height: 3.5rem; z-index: 1;} 
+.pain-icon:hover .hover-shape, 
+.advantage .card:hover .hover-shape,
+.specialties .card:hover .hover-shape {width: calc(100% + 1rem); height: 100%; top: 0rem; left: 0rem; transform: rotate(0deg);}
+
+
+/**********Relif Section***********************/
+.relief{padding:2rem 0rem 4rem;}
+.floting-icon{position: absolute; width: 4rem; height: 4rem; background-color: var(--inst-theme-color); padding: 0.5rem; border-radius: 50%; right: 0.5rem; bottom: 0.5rem;}
+.relief .card-group .card-img-top{height: 310px; object-fit: cover; object-position: bottom;}
+
+
+
+/**********Comprare Section***********************/
+.comprare{padding-bottom: 1rem;}
+.wrapper{padding: 1.5rem 2rem; background-color: var(--bs-white); border: 1px solid var(--inst-theme-color3); border-radius: 1rem;}
+.comprare .table{vertical-align: middle; text-align: center; margin-bottom: 0rem; border-radius: 1rem; overflow: hidden;}
+.comprare .table-header tr th{background-color: var(--inst-theme-color2); color:var(--bs-white); height: 72px; vertical-align: middle; font-weight: 500;} 
+.comprare tr, .comprare th{height: 2.5rem;}
+.comprare td{height: 72px; background-color: var(--bs-white);}
+.table-hover>tbody>tr:hover { --bs-table-accent-bg: #e8f2fd !important; color: var(--bs-table-hover-color); box-shadow: 0px 0px 1px rgba(0, 0, 0, .40);}
+.comprare .ico-yes, .comprare .ico-cross{ width: 2rem;}
+.table-striped>tbody>tr:nth-of-type(odd) { --bs-table-accent-bg: var(--inst-theme-color4);}
+
+
+
+/*********Testimonial*****************/
+.testimonial{position: relative; padding-bottom: 2rem; padding-top: 1.5rem;  }
+.testimonial .card-img-top{height: 7rem; width: 7rem !important; margin: auto; border-radius: 50%; position: absolute; left: 0rem; right: 0rem;
+    margin-top: -3rem; border: 6px solid var(--inst-theme-color4);}
+.feedback .txt-status { font-size: 0.8rem; font-weight: 500; float:right; color: var(--bs-success);}
+.feedback .card{border:1px solid var(--inst-theme-color3); border-radius: 1rem;}
+.feedback .owl-stage-outer{ padding-top: 3rem;}
+.feedback .owl-nav{font-size: 2rem; background-color: transparent;}
+.feedback .owl-nav .owl-prev{position: absolute; left: 0px; top: 42%;}
+.feedback .owl-nav .owl-next{position: absolute; right: 0px; top: 42%;}
+.feedback .bi-quote{font-size: 4rem; color: var(--inst-theme-color4);}
+.feedback .owl-nav .owl-prev:hover , .feedback .owl-nav .owl-next:hover  {font-size: 2rem; background-color: transparent; color: var(--inst-theme-color2);}
+.feedback .card-title{font-size: 1.2rem; font-weight: 500;}
+.ratting-star {font-size: .9rem; color:var(--bs-warning); margin-bottom: .4rem;}
+.ratting-star li{margin-right: .1rem !important; margin-bottom: 0.5rem;}
+.rating-container { display: flex; justify-content: space-between; margin-bottom: 1.5rem; margin-top: 0.5rem;}
+.rating-text { padding-left: 15px; padding-right: 15px; width: 220px; text-align: center;}
+.rating-text p{font-size: .95rem;}
+.rating-text h1 {font-size: 2.5rem; color: var(--bs-gray-dark); font-weight: 700;}
+.rating-text ul, .rating-star ul { display: flex; flex-direction: row; color: var(--inst-theme-color2); justify-content: space-between;  padding-left: 0px; 
+    margin-bottom: 0.25rem;}
+.rating-star ul{justify-content: left; }
+.rating-star li { margin-left: 0.5rem; line-height: 23px;}
+.rating-bar {width: 100%;}
+.rating-bar ul { width: 100%; display: flex; flex-direction: column; justify-content: space-between; height: 124px; margin-bottom: 0.55rem; margin-top: 0.3rem;}
+.rating-text li, .rating-bar ul li, .rating-star li { list-style: none;}
+.progres-wrapper { width: 100%; height: 8px; background-color: rgba(0,0,0,0.1); box-shadow: inset 0 2px 6px -6px rgb(0, 0, 0, .27);
+    border-radius: 4px; position: relative; overflow: hidden;}
+.progres-wrapper span { position: absolute; top: 0px; left: 0px; bottom: 0px; background-color: var(--inst-theme-color2); }
+.progres-wrapper .fst-bar {width: 89%;}
+.progres-wrapper .secnd-bar { width: 11%;}
+.rating-star { padding-left: 15px;  padding-right: 15px; width: 260px;}
+.rating-star div { display: flex; flex-direction: column;}
+.rating-star .bi-star { color: var(--bs-gray);}
+.txt-persentage { color: var(--bs-gray-dark); font-weight: 600;}
+
+
+ 
+/************FAQ*********************/
+.faq{padding-top: 3rem; position: relative; margin-bottom: 1rem;}
+.faq .collage::before{height: 23rem;}
+.faq .card{padding: 1.5rem 2rem; border-color: var(--inst-theme-color3); border-radius: 1rem;}
+.faq .col-md-10{margin: auto;}
+.faq .accordion-button{font-size: 1.3rem; font-weight: 500; background-color: transparent;}
+.faq .accordion-button:focus{box-shadow: none; border-bottom: none;}
+.faq .accordion-button:not(.collapsed){box-shadow: none;}
+.faq .accordion-item{border-radius: 0rem; overflow: hidden; border: none; border-top: 1px solid var(--inst-theme-color4);}
+.faq .accordion-button:not(.collapsed) {color: var(--inst-theme-color2); font-weight: 600;}
+.discount-container{ text-align: center; padding-top: 2rem;}
+
+
+/*************Footer***********************/
+.footer{ padding: 1rem 0rem; font-size: 1rem; font-weight: 500;}
+.footer a{color:var(--bs-gray-dark); text-decoration: none;}
+.footer a:hover{color: var(--inst-theme-color2);}
+.footer-link{text-align: right;}
+
+.back-to-top{ position: fixed; right: 10px; bottom: 10px; font-size: 2rem; width: 3rem; height: 3rem; background-color: var(--inst-theme-color); border-radius: 5px; 
+    color:var(--bs-white); text-align: center;  display: none; z-index: 9; }
+.back-to-top.show{display: block;}
+.back-to-top.show:hover{background-color: var(--inst-theme-color2); color: var(--bs-white); }
+
+
+@media only screen and (max-width: 1600px) {
+
+}
+
+@media only screen and (max-width: 1440px) {
+  .faq .container::after{ width: 103.8%;} 
+}
+
+@media only screen and (max-width: 1399px) {
+    .faq .collage::before{height: 20rem;}
+    
+}
+
+
+@media only screen and (max-width: 1199px) {
+    body{font-size: 16px;}
+    .navbar-brand.logo{font-size: 1rem;}
+    .main-nav .nav-link{margin-right: 0rem;}
+    .ratting{font-size: 1rem;}
+    .count-review{font-size: .9rem;}
+    .txt-hero-heading{font-size: 2rem;}
+    .txt-high-light::before{ top: 0px; left: 2rem; width:18.5rem ;}
+    .main-nav.fixed::before{min-width: 14rem; height: 10rem;}
+    .sec-heading{font-size: 2.5rem;}
+    .banner-container::before{height: 24rem;}
+    .card-title{font-weight: 500;}
+    .panel-heading{font-size: 1.2rem;}
+    .rating-star div{margin-bottom: 0.2rem;}
+    .faq .collage::before {height: 15.5rem; }
+    .sec-abt-product .sec-heading{padding-top: 0rem;}
+    .sec-device{padding-bottom: 3rem; padding-top: 3rem;}
+    .cus-satisfaction{margin-top: 1rem !important;}
+    .testimonial{ padding-bottom: 1rem;}
+    .pain-section{ margin-top: 3rem; margin-bottom: 3rem;}
+    .advantage .card-body{height: 16rem;}
+    .sec-abt-product { margin-top: 0rem; margin-bottom: 1rem; }
+    
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .btn-d-block-lg-up{display: none;}
+    .sec-heading.pb-4 { padding-bottom: .5rem !important; }
+    .d-block-lg-down{display: block;}
+    .main-nav { padding: 0.9rem 0rem; }
+    .main-nav.fixed{padding-top: 1rem; padding-bottom: 1rem;}
+    .hero-image{ padding: 0rem; }
+    .hero-image::before{position: relative; }
+    .hero-container .mt-5, .sec-abt-product .mt-5 {margin-top: 1.5rem !important;}
+    .banner-container::before{height: 30rem;}
+    .btn-banner-container{position: absolute; left: 0; right: 0; bottom: 20rem;}
+    #main_menu .nav-item{margin-top: 0.5rem; margin-bottom: 0.5rem;}
+    .swing {position: relative;}
+    .swing .middle-line{opacity: 0;}
+    .swing .top-line{position: absolute; transform: rotate(45deg); top: 8px;}
+    .swing .bottom-line{ position: absolute; transform: rotate(135deg); top: 8px; }
+    .main-nav .nav-link::after,
+    .main-nav .nav-link:hover::after{transform: rotate(0deg); width: 0.2rem; border-radius: 0px; padding: 0px;}
+    .banner-container{max-width: 20rem; margin: auto;}
+    .banner-text{padding-left:1rem; padding-right:1rem;}
+    .advantage{padding-top: 0rem;  padding-bottom: 3rem;}
+    .specialties .card{width: 48%;}
+    .specialties .mt-4{margin-top: 0rem !important; margin-bottom: 4rem !important;}
+    .advantage .container{max-width: 100%;}
+    .img-xs-7{ max-width: 25rem;}
+    .advantage .card-body { height: 19rem; }
+    .rating-star{width: 300px;}
+    .rating-text{width: 250px;}
+    .rating-bar ul{padding-left: 0.2rem;}
+    .sec-abt-product .order-lg-first{ margin-top: 1rem;}
+    .pain-section .card{margin-bottom: 1rem;}
+    .pain-section .card-img-top img{height:16rem;}
+    .pain-icon{ width: 32%; margin-top: 0.5rem; margin-bottom: 0.5rem;} 
+    .footer, .footer-link{text-align: center;}
+
+    
+}
+
+
+
+@media only screen and (max-width: 767px) {  
+    .bg-theme { padding: 4rem 0rem; }
+    .bg-theme .txt-offer{color:var(--bs-white); font-size: 1rem;}
+    .navbar-brand.logo {font-size: 1.4rem;  }
+    .main-nav.fixed::before{min-width: 14rem; height: 13rem; left: -2rem; top: -6rem;}
+    .banner-container{ max-width: 300px;}
+    .relief .card-group{flex-direction: column; }
+    .relief .card-group .card{margin-bottom: 0.75rem; border-left: 1px solid;}
+    .txt-hero-heading{text-align: center; font-size: 1.8rem;}
+    .ratting{text-align: center;}
+    .sec-heading { font-size: 1.7rem; }
+    .injury-name{width: 9.5rem; font-size: 1rem;}
+    .comprare .table-header tr th{font-size: 1rem;}
+    .faq .sec-heading{padding-bottom: 1rem;}
+    .faq .collage{width: 100%;}
+    .faq .collage::before{ height: 95%;}
+    .faq .accordion-button{font-size: 1.1rem;}
+    .advantage .container{ max-width: 540px;}
+    .advantage .card{padding-bottom: .8rem; height: auto; margin-bottom: 1rem;}
+    .rating-container{ margin-bottom: 0rem;}
+    .testimonial{padding-bottom: 0rem; padding-top: 1rem;}
+    .testimonial .col-md-4{display: none;}
+    .testimonial .mt-5{margin-top: 0rem !important;}
+    .feedback{padding: 0px 2rem;}
+    .feedback .owl-prev{left: -0.5rem !important;}
+    .feedback .owl-next{right: -0.5rem !important;} 
+    .rating-star div { margin-bottom: 0rem;  }
+    .pain-section{margin-bottom: 3rem;}
+    .pain-section .card{margin-top: 0rem;}
+    .pain-section .card-img-top img{max-width: 100%;}
+    .sec-abt-product .mt-5{text-align: center;}
+    .advantage .card-body{text-align: left; height: auto;}
+    .advantage .col-4{width:8rem;}
+    .advantage .col-8{width:calc(100% - 8rem);}
+    .advantage .card-title{font-size: 1.5rem; font-weight: 600; }
+    .comprare{padding-top: 1rem; padding-bottom: 2rem;}
+    .review-wrpper{background-position: right; padding-left: 0.5rem; padding-right: 0.5rem;}
+    .payment-type { max-width: 250px; }
+    .usesFor .owl-prev{left:-0.5rem;}
+    .usesFor .owl-next{right:-0.5rem;}
+    .img-xs-7{ max-width: 100%;}
+    .pain-section .card-body{min-height: auto;}
+    .specialties .card{width: 100%;}
+    .specialties .card:nth-child(odd) { margin-right: 0rem; }
+   
+
+}
+
+
+
+@media only screen and (max-width: 575px) {
+    .sec-heading {font-size: 1.6rem;    }
+    .banner-container{width: 18.5rem;}
+    .banner-container img{max-width: 12rem;}
+    .banner-container::before {  height: 14rem;  }
+    .feedback .card-title { padding-right: 0rem; }
+    .feedback .txt-status{ position: relative;display: block; margin: 0.4rem 0rem 0.4rem 0.6rem;}
+    .txt-high-light::before{left: 0.4rem; width: 96%; right: 0rem; top: auto; bottom: auto; height: 100%;}
+    .txt-offer{font-size: 1rem;}
+    .pain-section{padding-top: 2rem; margin-top: 0rem;}
+    .pain-section .card-img-top {max-height: 18rem; }
+    .pain-section .sec-heading {padding-bottom: 0rem;}
+    .pain-section .card .col-4, .pain-section .card .col-8 { width: 100%; }
+    .pain-section .img-media { height: 100%;  width: 100%;  min-height: auto;  max-height: none; }
+    .testimonial{padding-bottom: 1rem;}
+    .rating-bar ul{height: 118px;}
+    .rating-text h1{font-size: 1.75rem;}
+    .rating-star ul{margin-bottom: 0rem;}  
+    .pain-section .card { width: 100%; }
+    .advantage .col-4 {width: 6rem; }
+    .advantage .col-8 { width: calc(100% - 6rem);}
+    .sec-abt-product .card, 
+    .wrapper, 
+    .faq .card{padding: 1rem;}
+}
+

@@ -1,0 +1,764 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.css">
+    <link rel="stylesheet" href="../css/zoom-main.css">
+    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="../css/variable.css">
+    <link rel="stylesheet" href="./css/mall.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/fontawsome6.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="./js/mall.js"></script>
+
+    <title>Memeyacht</title>
+</head>
+
+<body>
+
+    <!------------------------------>
+    <div class="collapse" id="navbarToggleSearchContent">
+        <div class="container p-4">
+            <div class="row justify-content-md-center">
+                <div class="col col-md-6">
+                    <div class="input-group mb-3 input-group-lg">
+                        <input type="text" class="form-control" placeholder="Search by category, item name"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <button class="input-group-text btn-theme" id="basic-addon2">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------Header----------------------------->
+    <header>
+        <section class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="logo">
+                    <img class="img-fluid" src="../Images/logo-blue.png">
+                </div>
+                <div class="header-links">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <img class="img-fluid profile-pic" src="./Image/avtar.jpg">
+                                <span class="user-name">
+                                    Jully
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item crtLnkHeader">
+                            <a class="position-relative" href="./checkout.html">
+                                <i class="fas fa-shopping-basket position-inherit"></i>
+                                <span class="CrtItmNum">
+                                    5
+                                </span>
+                            </a>
+                            <section class="sm-cart">
+
+                                <div class="row itmCrtAdded">
+                                    <div class="col-3">
+                                        <img class="img-fluid" src="./Image/t-shirt-front.jpg">
+                                    </div>
+                                    <div class="col-9 position-relative">
+                                        <h6 class="itmCrt-name">
+                                            Lorem ipsum dolor sit amet consectetur
+                                        </h6>
+                                        <i class="fas fa-dollar-sign"></i>
+                                        <label>100</label>
+                                        <i class="fas fa-times mx-2"></i>
+                                        <label>1</label>
+                                        <span class="float-end text-theem">
+                                            100
+                                        </span>
+                                        <!--Remove Cart Item-->
+                                        <a class="removeCrtItm" href="#"> <i class="fas fa-times"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row  align-items-center border-bottom">
+                                    <div class="col-3">
+                                        <img class="img-fluid" src="./Image/shirt-front.jpg">
+                                    </div>
+                                    <div class="col-9 position-relative">
+                                        <h6 class="itmCrt-name">
+                                            Lorem ipsum dolor sit amet consectetur
+                                        </h6>
+                                        <i class="fas fa-dollar-sign"></i>
+                                        <label>100</label>
+                                        <i class="fas fa-times mx-2"></i>
+                                        <label>4</label>
+                                        <span class="float-end text-theem">
+                                            400
+                                        </span>
+                                        <!--Remove Cart Item-->
+                                        <a class="removeCrtItm" href="#"> <i class="fas fa-times"></i></a>
+                                    </div>
+                                </div>
+
+                                <div class="cart-footer">
+                                    <div>
+                                        <span class="text-theem">Total</span>
+                                        <span>500</span>
+                                    </div>
+                                    <div class="">
+                                        <a class="btn btn-theme" href="./checkout.html">Check out</a>
+                                    </div>
+                                </div>
+                            </section>
+                        </li>
+                        <li class="list-inline-item crtLnkHeader">
+                            <a href="#" class="position-relative">
+                                <i class="fas fa-heart position-inherit"></i> 
+                                <span class="CrtItmNum">
+                                    0
+                                </span>                              
+                            </a>
+
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-bs-toggle="collapse" data-bs-target="#navbarToggleSearchContent"
+                                aria-controls="navbarToggleSearchContent" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fa fa-language" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+
+        <!------------------------NavBar----------------------------->
+        <nav class="container mt-1">
+            <div class="nav-container">
+                <ul class="list-inline category">
+                    <li class="list-inline-item active"><a href="#">Home</a></li>
+                    <li class="list-inline-item"><a href="#">Health Care</a></li>
+                    <li class="list-inline-item"><a href="#">Kid's & Baby</a></li>
+                    <li class="list-inline-item"><a href="#">Boat's Motor & Parts</a></li>
+                    <li class="list-inline-item"><a href="#">Fashion</a></li>
+                    <li class="list-inline-item"><a href="#">Maintenance & Hardware</a></li>
+                    <li class="list-inline-item"><a href="#">Sports & Fitness</a></li>
+                    <li class="list-inline-item"><a href="#">Accessories</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!------------------------NavBar End----------------------------->
+    </header>
+
+    <main class="container">
+        <!--------------Bread Crumb----------------------->
+        <section class="row">
+            <nav aria-label="breadcrumb " class="position-relative">
+                <ol class="breadcrumb my-3">
+                    <li class="breadcrumb-item"><a href="./mall.html">Mall</a></li>
+                    <li class="breadcrumb-item"><a href="./product.html">Product</a></li>
+                    <li class="breadcrumb-item"><a href="./productDetails.html">Product details</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Check out</li>
+                </ol>
+            </nav>
+        </section>
+    </main>
+
+    <main class="container">
+        <div class="row">
+            <div class="card px-0 mb-3 overflow-hidden">
+                <div class="bg-white">
+                    <ul class="nav nav-pills" id="ordProcess-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="cart-tab" title="Cart" data-bs-toggle="pill" data-bs-target="#pills-cart" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fas fa-shopping-basket"></i> <span>Cart</span></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-login-tab" title="login" data-bs-toggle="pill" data-bs-target="#pills-login" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-key"></i> <span>Login</span></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-contact-tab" title="Shipping Address" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><i class="fas fa-shipping-fast"></i> <span>Shipping address</span></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="payment-tab" title="Payment" data-bs-toggle="pill" data-bs-target="#payment" type="button" role="tab" aria-controls="payment" aria-selected="false"><i class="fas fa-wallet"></i> <span>Payment</span></button>
+                          </li>
+                      </ul>
+                      <div class="tab-content" id="ordProcess">
+                            <!------------------Cart Tab-->  
+                        <div class="tab-pane fade active" id="pills-cart" role="tabpanel" aria-labelledby="cart-tab">
+                            <div class="row mb-4">
+                                <section class="col-3 col-md-2 col-lg-1">
+                                    <img class="img-fluid" src="./Image/shirt-front.jpg">
+                                </section>
+                                <section class="col-9 col-md-10 col-lg-11">
+                                    <div class="row">
+                                        <div class="col-md-12 col-lg-5">
+                                            <h6 class="itmCrt-name">
+                                                Lorem ipsum dolor sit amet consectetur
+                                            </h6>
+                                            <p class="small-text">
+                                                <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus velit qui, 
+                                                necessitatibus modi vitae fuga, vel temporibus dolorum iure dignissimos quam quos 
+                                                sunt mollitia. Nemo nesciunt molestias natus tenetur nisi.
+                                            </small>
+                                            </p>
+                                        </div>
+                                        <div class="col-4 col-lg-3">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item">
+                                                    <i class="fas fa-dollar-sign" aria-hidden="true"></i>
+                                                    <span class="fw-bold text-decoration-line-through">100.00</span>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <i class="fas fa-dollar-sign" aria-hidden="true"></i>
+                                                    <span class="fw-bold text-theem  h5">99.00</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-8 col-lg-2">
+                                            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                                                <button class="btn btn-theme" for="btnradio1">
+                                                    <i class="fas fa-plus" aria-hidden="true"></i>
+                                                </button>
+                                                <label class="btn btn-outline-primary" for="btnradio2">2</label>
+                                                <button class="btn btn-theme" for="btnradio3">
+                                                    <i class="fas fa-minus" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-2">
+                                            <i class="fas fa-dollar-sign" aria-hidden="true"></i>
+                                            <span class="fw-bold text-theem  h5">198.00</span>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <!--=======================================================-->
+                            <div class="row mb-4">
+                                <section class="col-3 col-md-2 col-lg-1">
+                                    <img class="img-fluid" src="./Image/t-shirt-front.jpg">
+                                </section>
+                                <section class="col-9 col-md-10 col-lg-11">
+                                    <div class="row">
+                                        <div class="col-md-12 col-lg-5">
+                                            <h6 class="itmCrt-name">
+                                                Lorem ipsum dolor sit amet consectetur
+                                            </h6>
+                                            <p class="small-text">
+                                                <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus velit qui, 
+                                                necessitatibus modi vitae fuga.
+                                            </small>
+                                            </p>
+                                        </div>
+                                        <div class="col-4 col-lg-3">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item">
+                                                    <i class="fas fa-dollar-sign" aria-hidden="true"></i>
+                                                    <span class="fw-bold text-decoration-line-through">100.00</span>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <i class="fas fa-dollar-sign" aria-hidden="true"></i>
+                                                    <span class="fw-bold text-theem  h5">99.00</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-8 col-lg-2">
+                                            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                                                <button class="btn btn-theme" for="btnradio1">
+                                                    <i class="fas fa-plus" aria-hidden="true"></i>
+                                                </button>
+                                                <label class="btn btn-outline-primary" for="btnradio2">2</label>
+                                                <button class="btn btn-theme" for="btnradio3">
+                                                    <i class="fas fa-minus" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-2">
+                                            <i class="fas fa-dollar-sign" aria-hidden="true"></i>
+                                            <span class="fw-bold text-theem  h5">198.00</span>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <!--=======================================================-->
+                            <!--cart footer-->
+                            <section class="row">
+                                <div class="col-md-5 col-sm-6 col-12 order-sm-last">
+                                    <ul class="list-unstyled d-grid">
+                                        <li>
+                                            <span class="float-start">Sub total</span> <span class="float-end">396</span>
+                                        <br/>
+                                            <span class="float-start">Shipping charge</span> <span class="float-end">6</span>
+                                        </li>
+                                        <li>
+                                            <div class="input-group my-3">
+                                                <input type="text" class="form-control" placeholder="Couppon code" aria-label="Recipient's username"
+                                                    aria-describedby="basic-addon2">
+                                                <button class="input-group-text btn-theme"> Apply </button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="float-start text-theem fw-bold">Grand total</span> 
+                                        <span class="float-end text-theem fw-bold">402</span> 
+                                        </li>                                      
+                                    </ul>                                  
+                                </div>
+                                <div class="col-md-7 col-sm-6 col-12 order-sm-first">
+                                    <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                                    <a class="btn btn-theme float-end mt-2" href="#">Send</a>
+                                </div> 
+                                                     
+                            </section>
+                            <div class="row">
+                                <div class="text-right">
+                                    <a class="btn btn-theme float-end mt-2" href="#">Next</a>
+                                </div>
+                                
+                            </div>   
+                            
+                        </div>
+                    <!------------------End Cart Tab--> 
+
+                    <!------------------Login Tab-->   
+                        <div class="tab-pane fade" id="pills-login" role="tabpanel" aria-labelledby="pills-login-tab">
+                            <section class="login-container login-container-sm">
+                                <div class="row mx-0">
+                                    <div class="col-md-6 px-0">
+
+                                        <div id="mallLoginIndicators" class="carousel slide" data-interval="false">                                           
+                                            <div class="carousel-inner">
+                                              <div class="carousel-item active">
+                                                  <h2 class="fw-bold text-center">Login</h2>
+                                                  <section class="form-container">                                                 
+                                                      <form>                       
+                                                          <div class="mb-3">
+                                                              <label class="form-label" for="exampleInputEmail1">Email address</label>
+                                                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                              
+                                                          </div>
+                                                          <div class="mb-3">
+                                                              <label class="form-label" for="exampleInputPassword1">Password</label>
+                                                              <input type="password" class="form-control" id="exampleInputPassword1">
+                                                          </div>                              
+                                                          <a href="#" class="btn btn-light" data-bs-target="#mallLoginIndicators" data-bs-slide-to="2" class="active" aria-current="true" aria-label="Slide 3">Forget Password ?</a>
+                                                          <a href="./dashboard.html" class="btn btn-theme float-end">Submit</a>                       
+                                                      </form>
+                                                      <div class="text-center">
+                                                          <a class="text-center btn ntn-link" href="#" data-bs-target="#mallLoginIndicators" data-bs-slide-to="1" aria-label="Slide 2">Create new account</a>
+                                                         
+                                                        </div>                     
+                                                  </section>
+                                              </div>
+                                              <div class="carousel-item">
+                                                  <h2 class="fw-bold text-center">Register</h2>
+                                                  <section class="form-container">
+                                                    
+                                                      <form>                       
+                                                          <div class="mb-3">
+                                                              <label class="form-label" for="exampleInputEmail1">Email address</label>
+                                                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                              
+                                                          </div>
+                                                          <div class="mb-3">
+                                                              <label class="form-label" for="exampleInputPassword1">Password</label>
+                                                              <input type="password" class="form-control" id="exampleInputPassword1">
+                                                          </div>
+                                          
+                                                          <a href="#" class="btn btn-light" data-bs-target="#mallLoginIndicators" data-bs-slide-to="2" class="active" aria-current="true" aria-label="Slide 3">Forget Password ?</a>
+                                                          <a href="./dashboard.html" class="btn btn-theme float-end">Submit</a>                       
+                                                      </form> 
+                                                      
+                                                      <div class="text-center">
+                                                          <a class="text-center btn ntn-link" href="#" data-bs-target="#mallLoginIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">I have a account</a>
+                                                        </div>                   
+                                                  </section>
+                                              </div>
+                                              <div class="carousel-item">
+                                                  <h2 class="fw-bold text-center">Forgot Password</h2>
+                                                  <section class="form-container">
+                                                    
+                                                      <form>                       
+                                                          <div class="mb-3">
+                                                              <label class="form-label" for="exampleInputEmail1">Email address</label>
+                                                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                              
+                                                          </div>
+                                                          <div class="mb-3">
+                                                              <label class="form-label" for="exampleInputPassword1">New password</label>
+                                                              <input type="password" class="form-control" id="exampleInputPassword1">
+                                                          </div>
+                                                          <div class="mb-3">
+                                                            <label class="form-label" for="exampleInputPassword1">Confirm password</label>
+                                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                                        </div>
+                                                          
+                                                          <a href="#" class="btn btn-theme float-end">Submit</a>                       
+                                                      </form>  
+                                                      
+                                                        <a class="text-center btn ntn-link" href="#"  data-bs-target="#mallLoginIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">I have a account</a>
+                                                                        
+                                                  </section>
+                                              </div>
+                                            </div>                       
+                                          </div>
+
+                                        
+                                    </div>
+
+                                    <div class="col-md-6 px-0 d-none-sm-down">
+                                        <img class="img-fluid" src="../Images/shopping.png">                                  
+                                      </div>
+                                </div>
+                              </section>
+                        </div>
+                    <!------------------End Login Tab-->  
+
+                    <!------------------Shipping Address Tab-->  
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                            <form>
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 col-md-4 mb-3">
+                                        <label for="ord-name" class="form-label">First Name 
+                                            <sup><i class="fas fa-asterisk text-danger"></i></sup>
+                                        </label>
+                                        <input type="text" class="form-control" id="ord-name">
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 mb-3">
+                                        <label for="ord-last-name" class="form-label">Last Name
+                                            <sup><i class="fas fa-asterisk text-danger"></i></sup>
+                                        </label>
+                                        <input type="text" class="form-control" id="ord-last-name">
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 mb-3">
+                                        <label for="ord-email" class="form-label">Email address
+                                            <sup><i class="fas fa-asterisk text-danger"></i></sup>
+                                        </label>
+                                        <input type="email" class="form-control" id="ord-email">
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 mb-3">
+                                        <label for="ord-contactNumber" class="form-label">Phone Number
+                                            <sup><i class="fas fa-asterisk text-danger"></i></sup>
+                                        </label>
+                                        <input type="tel" class="form-control" id="ord-contactNumber">
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 mb-3">
+                                        <label for="ord-address" class="form-label">Address 
+                                            <sup><i class="fas fa-asterisk text-danger"></i></sup>
+                                        </label>                               
+                                        <textarea class="form-control"id="ord-address" ></textarea>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 mb-3">
+                                        <label for="ord-address" class="form-label">Address 2 
+                                            <sup>(Optional)</sup>
+                                        </label>                               
+                                        <textarea class="form-control" id="ord-address2" ></textarea>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 mb-3">
+                                        <label for="ord-landMark" class="form-label">Land mark 
+                                            <sup><i class="fas fa-asterisk text-danger"></i></sup>
+                                        </label>
+                                        <input type="text" class="form-control" id="ord-landMark">
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 mb-3">
+                                        <label for="ord-cuntry" class="form-label">Cuntry
+                                            <sup><i class="fas fa-asterisk text-danger"></i></sup>
+                                        </label>
+                                        <select class="form-select" aria-label="ord-cuntry">
+                                            <option selected>Cuntry</option>
+                                            <option value="1">India</option>
+                                            <option value="2">Japan</option>
+                                            <option value="3">Australia</option>
+                                            <option value="4">Rush</option>
+                                            <option value="5">USA</option>
+                                            <option value="6">UK</option>
+                                          </select>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 mb-3">
+                                        <label for="ord-state" class="form-label">State
+                                            <sup><i class="fas fa-asterisk text-danger"></i></sup>
+                                        </label>
+                                        <select class="form-select" aria-label="ord-state">
+                                            <option selected>State</option>
+                                            <option value="1">Maharashtra</option>
+                                            <option value="2">Punjab</option>
+                                            <option value="3">Rajasthan</option>
+                                            <option value="4">West bengal</option>
+                                            <option value="5">Odisa</option>
+                                            <option value="6">Tamil Nadu</option>
+                                          </select>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 mb-3">
+                                        <label for="ord-zipCode" class="form-label">ZIP
+                                            <sup><i class="fas fa-asterisk text-danger"></i></sup>
+                                        </label>
+                                        <input type="number" class="form-control" id="ord-zipCode">
+                                    </div>
+                                    <div class="row">
+                                        <div class="text-right">
+                                            <a class="btn btn-theme float-end mt-2" href="#">Next</a>
+                                        </div>
+                                        
+                                    </div>  
+                                </div>
+                            </form>
+                        </div>
+                    <!------------------End Shipping Address Tab--> 
+                    <!------------------Payment Tab-->   
+
+                        <div class="tab-pane fade" id="payment" role="tabpanel" aria-labelledby="payment-tab">
+                            <div class="d-flex align-items-start payment-options">
+                                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                  <button class="nav-link" id="pay-onDelivery" data-bs-toggle="pill" data-bs-target="#v-pills-pay-onDelivery" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                    <i class="fas fa-money-bill-wave"></i> Cash on delivery
+                                </button>
+                                  <button class="nav-link active" id="pay-card" data-bs-toggle="pill" data-bs-target="#v-pills-card" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                                    <i class="fas fa-credit-card"></i>
+                                    Credit / Debit card
+                                </button>
+                                  <button class="nav-link" id="netBanking" data-bs-toggle="pill" data-bs-target="#v-pills-netBanking" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                                    <i class="fas fa-university"></i> Net banking
+                                    </button>
+                                  <button class="nav-link" id="v-pills-EMI-tab" data-bs-toggle="pill" data-bs-target="#v-pills-EMI" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                                    <i class="fas fa-coins"></i> EMI
+                                    </button>
+                                </div>
+
+
+                                <div class="tab-content w-100" id="v-pills-tabContent">
+                                  <div class="tab-pane fade" id="v-pills-pay-onDelivery" role="tabpanel" aria-labelledby="pay-onDelivery">
+                                    <section class="batch">
+                                      <i class="fas fa-check"></i>                                     
+                                    </section>                                  
+                                    <p> Thank you.</p>
+                                  </div>
+                                  <div class="tab-pane fade active" id="v-pills-card" role="tabpanel" aria-labelledby="pay-card">
+                                    <form class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="card-holder-name" class="form-label">Name on card</label>
+                                            <input type="text" class="form-control" id="card-holder-name">
+                                          </div>
+                                          <div class="mb-3">
+                                            <label for="card-name" class="form-label">Card name</label>
+                                            <input type="text" class="form-control" id="card-name">
+                                          </div>
+                                          <div class="row mb-3">
+                                              <div class="col-6">
+                                                <label for="card-expiry" class="form-label">Expiry date</label>
+                                                <input type="date" class="form-control" id="card-expiry">
+                                              </div>
+                                              <div class="col-6">
+                                                <label for="card-securityCode" class="form-label">Security code</label>
+                                                <input type="password" class="form-control" id="card-securityCode">
+                                              </div>
+                                          </div>
+                                          
+                                            <button class="btn btn-theme w-100">Pay</button>
+                                          
+                                    </form>
+                                  </div>
+                                  <div class="tab-pane fade" id="v-pills-netBanking" role="tabpanel" aria-labelledby="netBanking">...3</div>
+                                  <div class="tab-pane fade" id="v-pills-EMI" role="tabpanel" aria-labelledby="v-pills-EMI-tab">...4</div>
+                                </div>
+                              </div>
+                        </div>
+                    <!------------------End Payment Tab-->   
+
+                      </div>
+                </div>
+            </div>
+        </div>
+       
+    </main>
+    <!------------------------------------>
+
+    <!-----------------------Footer----------------->
+    <footer class="bg-theem pt-5">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-12 col-sm-6 col-md-3">
+            <a href="#">
+              <img class="img-fluid" src="./Images/logowhite-blue.png">
+            </a>
+          </div> -->
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque non tortor non
+                        scelerisque.
+                        Nam lacinia blandit risus at luctus.
+                    </p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                About
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                Contact
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                Privacy policy
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                Terms & Conditions
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                Crarear
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div id="portfolio" class="row ft-gallery">
+                        <div class="col-4 px-1 my-1">
+                            <div class="position-relative">
+                                <a href="../Images/yachts1.jpg">
+                                    <img class="img-fluid" src="../Images/yachts1.jpg">
+                                    <div class="overlay">
+                                        <i class="far fa-eye"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-4 px-1 my-1">
+                            <div class="position-relative">
+                                <a href="../Images/yachts2.jpg">
+                                    <img class="img-fluid" src="../Images/yachts2.jpg">
+                                    <div class="overlay">
+                                        <i class="far fa-eye"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-4 px-1 my-1">
+                            <div class="position-relative">
+                                <a href="../Images/yachts3.jpg">
+                                    <img class="img-fluid" src="../Images/yachts3.jpg">
+                                    <div class="overlay">
+                                        <i class="far fa-eye"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-4 px-1 my-1">
+                            <div class="position-relative">
+                                <a href="../Images/yachts4.jpg">
+                                    <img class="img-fluid" src="../Images/yachts4.jpg">
+                                    <div class="overlay">
+                                        <i class="far fa-eye"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-4 px-1 my-1">
+                            <div class="position-relative">
+                                <a href="../Images/yachts2.jpg">
+                                    <img class="img-fluid" src="../Images/yachts2.jpg">
+                                    <div class="overlay">
+                                        <i class="far fa-eye"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-4 px-1 my-1">
+                            <div class="position-relative">
+                                <a href="../Images/yachts3.jpg">
+                                    <img class="img-fluid" src="../Images/yachts3.jpg">
+                                    <div class="overlay">
+                                        <i class="far fa-eye"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <ul class="list-inline ft-social">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="container text-end mb-3">
+                        © copyright @ MeMeYacht
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!------------------Back to top-------------------->
+    <a id="backTop" href="#" class="gotopbtn">
+        <img class="img-fluid" src="../Images/anchor-blue.png">
+    </a>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <script src="../js/zoom-image.js"></script>
+    <script src="../js/zoom-main.js"></script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

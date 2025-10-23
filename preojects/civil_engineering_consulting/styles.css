@@ -1,0 +1,545 @@
+/*  
+Template Name: Healthcare 2
+Template URI: https://templatepreview.link/rs/fire_damage_service_2/
+Description: Upsell for Lorem.
+Version: 1.0
+Author: Actovision
+Author URI: https://actovision.com/
+Fonts: Roboto:100,200,300,400,500,600,700,800,900,
+*/
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: #fff7e4;
+}
+
+/* ---------header------- */
+.header{
+    background-color: #ffbc15;
+}
+.hd-lnk-col{
+    display: flex;
+    justify-content: end;
+}
+.ez_icon_text_link_container.icon_link{
+    margin-top: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ez_icon_text_link_container.icon_link .ez_icon_text_link .ez_icon_text_link_icon i{
+    color: #222;
+    font-size: 14px;
+}
+.ez_icon_text_link_container.icon_link .ez_icon_text_link .ez_icon_text_link_desc p{
+    font-size: 14px;
+}
+.ez_social_container.socl_list{
+    padding:5px 0;
+}
+.socl_list .ez_social_list>a {
+    border: none;
+    width: 20px;
+    height: auto;
+}
+.socl_list .ez_social_list>a i {
+    color: #222222;
+    font-size: 15px;
+}
+/* ---------header End------- */
+
+/* ---------Navbar------- */
+.menu {
+    background-color: #ffffff;
+    position: relative !important;
+}
+
+.menu .ez_menu_items_wrapper {
+    justify-content: flex-end;
+}
+
+/* ---------Navbar End------- */
+
+/**********Banner*******************/
+.sec-banner{
+    background-image: url(images/bg-hero.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+}
+.bnr-img-container{
+    display: flex;
+    margin-right: -12px;
+}
+.bnr-col-card{
+    flex-direction: column;
+    background-color: #ffedc3;
+    padding: 18px;
+}
+.ez_flex_container .txt-bnr-h-3 p{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.ez_flex_container .txt-bnr-h-4 p{
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 0;
+    color:#927630;
+    
+}
+.ez_flex_container .lnk-txt a{
+    color: #000000;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+.ez_flex_container .lnk-txt a:hover{
+    color:#ff9700;
+}
+.bnr-txt-container{
+    flex-direction: column;
+    max-width: 620px;
+    margin-top: 140px;
+}
+.bnr-txt-container .ez_text_container.txt-bnr-headline p{
+    font-size: 66px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: normal;
+}
+.bnr-card{
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.bnr-card .ez_experience_box_content .ez_experience_box_number{
+    margin-bottom: 0;
+    text-align: center;
+}
+.bnr-card .ez_experience_box_content .ez_experience_box_text{
+    text-align: center;
+}
+.bnr-card .ez_experience_box_content .ez_experience_box_number{
+    font-weight: 900;
+}
+.bnr-txt-container .ez_text_container p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn-theme button{
+    background-color: #000;
+    color: #fff;
+    padding: 12px 20px;
+    border: 2px solid #000;
+    font-size: 18px;
+}
+.btn-theme button:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+/********************Sec Choose us********************************/
+.sec-service{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.sec-title{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.sec-title p{
+    background-color: #ffe39d;
+    padding: 6px 15px;
+    line-height: normal;
+    border-radius: 18px;
+}
+.sec-heading p{
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    max-width: 820px;
+    margin: 0 auto 15px auto;
+    line-height: normal;
+}
+.sec-h-text{
+    max-width: 820px;
+    margin: auto;
+}
+.sec-h-text p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sec-service .flex-direction-col{
+    flex-direction: column;
+    border: 2px solid #ffbd16;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.card-number p{
+    font-size: 32px;
+    font-weight: bold;
+    background-color: #ffe39d;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    color: #927630;
+}
+.card-title p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-link a{
+    text-decoration: none;
+    color: #000;
+    padding-left: 0;
+    padding-right: 0;
+    font-weight: 500;
+}
+.card-link a:hover{
+    color:#ff9700;
+}
+.crd-txt p{
+    color:#424242;
+}
+
+/***************Sec-projects ********************/
+.sec-project{
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.img-project-col{
+    padding-left: 0;
+    padding-right: 0;
+}
+.img-project-col .ez_image_container{
+    display: flex;
+}
+.img-project-col .ez_team_box_container{
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    overflow: hidden;
+}
+.img-project-col .ez_team_box_container .ez_team_box_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    border: none;
+    display: flex;
+    transition: .3s;
+}
+.img-project-col .ez_team_box_container .ez_team_box_content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    transition: .3s;
+}
+.img-project-col .ez_team_box_container .ez_team_box_content p{
+    color:#fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+.img-project-col .ez_team_box_container:hover .ez_team_box_img img{
+    transform: scale(1.1);
+    transition: .3s;
+}
+.img-project-col .ez_team_box_container:hover .ez_team_box_content{
+    display: flex;
+    transition: .3s;
+}
+
+
+/****************Sec-About****************/
+.sec-about{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.sec-about .sec-title {
+    justify-content: left;
+}
+.sec-about .sec-heading p{
+    text-align: left;
+}
+.txt-description p{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.sec-about .ez_icon_list_container{
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-right: 0;
+}
+.sec-about .ez_icon_list_container .ez_icon_list .ez_icon_list_desc p{
+    font-size: 16px;
+}
+.sec-about .ez_icon_list_container .ez_icon_list{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.sec-about .ez_icon_list_container .ez_icon_list_icon i{
+    color: #927630;
+    font-size: 18px;
+}
+.collage-col .col-xsmall-6{
+    margin-bottom: 24px;
+}
+.collage-col .col-xsmall-6 .ez_image_container {
+    display: flex;
+}
+.collage-col .col-xsmall-6 .ez_image_container img{
+    border: 3px solid #ffbd16;
+}
+
+/***************sec-testimonial********************/
+.sec-testimonial{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.sec-testimonial .ez_carousel_item .ez_column_full.item .ez_image_container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #feac18;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.ico-ratting-box{
+    justify-content: center;
+    margin-top: 20px;
+}
+.ico-ratting-box .ez_icon_container i{
+    font-size: 16px;
+    padding: 2px;
+    color:#9b9b9b;
+}
+.ez_icon_container i.ez_testimonial_starActive{
+    color: #ff9700;
+}
+.sec-testimonial .ez_testimonial_box_container .ez_testimonial_box_content .ez_testimonial_name{
+    color:#000;
+}
+.sec-testimonial .ez_carousel_item, .sec-testimonial .ez_carousel_sec .ez_carousel_item.active{
+    background-color: transparent;
+    backdrop-filter: none;
+}
+.sec-testimonial .ez_carousel_sec .ez_text_container.txt-fd-title{
+    margin-top: 6px;
+}
+.sec-testimonial .ez_carousel_sec .ez_text_container.txt-fd-title p{
+    font-weight: 700;
+}
+.sec-testimonial .ez_carousel_sec .ez_text_container p{
+    color:#222;
+    font-family: 'Roboto';
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.sec-testimonial .ez_carousel_sec .ez_text_container p i{
+    font-size: 30px;
+}
+.sec-testimonial .carousel-next,
+.sec-testimonial .carousel-prev{
+    background-color: transparent;
+    color: #000;
+}
+.sec-testimonial .carousel_list_marker_cont li.active{
+    background: #ffbc15;
+}
+.img-dp{
+    margin-top: 20px;
+}
+.sec-testimonial .ez_carousel_sec .ez_text_container{
+    margin-top: 0;
+}
+.sec-testimonial .carousel_list_marker_cont{
+    margin-bottom: -10px;
+}
+
+/***************End sec-testimonial********************************/
+
+/******************Footer****************************/
+.sec-footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #ffbc15;
+}
+.ft-flex-center{
+    justify-content: center;
+}
+.ft-flex-center .ez_link_container a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ft-social-lnk-center {
+    text-align: center;
+}
+.ft-flex-center .ez_link_container a:hover{
+    color: #fff7e4;
+}
+.ez_social_container .ft-social-lnk-center a{
+    border-color: #000;
+}
+.ez_social_container .ft-social-lnk-center a i{
+    color: #000000;
+   
+}
+.ez_social_container .ft-social-lnk-center a:hover{
+    border-color: #ffffff;
+}
+.ez_social_container .ft-social-lnk-center a:hover i{
+    color: #fff;
+}
+.sec-copyright{
+    text-align: center;
+}
+.sec-copyright p{
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/**********Media Query**********************/
+
+
+@media screen and (max-width:1200px) {
+    .bnr-txt-container .ez_text_container.txt-bnr-headline p {
+        font-size: 52px;
+    }
+}
+
+@media screen and (max-width:1081px) {
+    
+}
+
+
+@media screen and (max-width:991px) {
+    /*************Navbar*************************/
+    .ez_hambarger_wrapper {
+        justify-content: end;
+    }
+    .bnr-card .ez_experience_box_content .ez_experience_box_number{
+        font-size: 36px;
+    }
+    .bnr-card .ez_experience_box_content .ez_experience_box_text{
+        font-size: 14px;
+    }
+    .bnr-txt-container .ez_text_container p{
+        font-size: 16px;
+    }
+    .card-title p{
+        font-size: 16px;
+    }
+    .bnr-txt-container .ez_text_container.txt-bnr-headline p{
+        font-size: 44px;
+    }
+    .sec-heading p{
+        font-size: 34px;
+    }
+    .card-number p{
+        width: 52px;
+        height: 52px;
+        font-size: 24px;
+    }
+    .collage-col{
+        padding-left: 0;
+        padding-right: 0;
+    }
+          
+    
+}
+
+@media screen and (max-width:767px) {
+    /*************header*********************/
+    .ez_icon_text_link_container.icon_link .ez_icon_text_link .ez_icon_text_link_desc p {
+            display: none;
+    }
+    .ez_icon_text_link_container.icon_link .ez_icon_text_link .ez_icon_text_link_icon i{
+        margin-right: 0;
+    }
+    .ez_icon_text_link_container.icon_link{
+        padding: 5px 7px;
+    }
+
+   .bnr-txt-container{
+        margin-top: 50px;
+   }
+   .bnr-txt-container .ez_text_container.txt-bnr-headline p{
+        font-size: 42px;
+        text-align: center; 
+   }
+   .btn-theme{
+    text-align: center;
+   }
+   .sec-heading p {
+       font-size: 28px;
+   }
+   .bnr-txt-container .ez_text_container p{
+    text-align: center;
+   }
+   .ft-flex-center .ez_link_container a{
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+   }
+   .ez_social_container .ez_social_list>a{
+        width: 32px;
+        height: 32px;
+   }
+   .ez_flex_container .txt-bnr-h-3 p{
+        font-size: 24px;
+   }
+   .ez_flex_container .txt-bnr-h-4 p{
+        font-size: 28px;
+   }
+   .ez_logo_wrapper{
+        padding: 0px 0;
+   }
+ 
+      
+}
+
+@media screen and (max-width:575px) {
+    .bnr-txt-container .ez_text_container.txt-bnr-headline p {
+        font-size: 30px;
+    }
+    .bnr-txt-container .ez_text_container p{
+        font-weight: 400;
+    }
+    .sec-heading p {
+        font-size: 24px;
+    }
+    .img-project-col .ez_team_box_container .ez_team_box_content p{
+        font-size: 12px;
+    }
+        
+    
+}
+
+
+
+
+
+
+
+

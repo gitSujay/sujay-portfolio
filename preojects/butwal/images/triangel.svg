@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="782" height="82" viewBox="0 0 782 82">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="782" height="85" transform="translate(0.542)"/>
+    </clipPath>
+    <clipPath id="clip-Artboard_1">
+      <rect width="782" height="82"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <rect width="782" height="82" fill="#fff"/>
+    <g id="Web_1920_1" data-name="Web 1920 – 1" transform="translate(-0.542 -1)" clip-path="url(#clip-path)">
+      <path id="Path_1" data-name="Path 1" d="M0,0H782V85H0Z" transform="translate(0.542)" fill="none"/>
+      <path id="Path_1-2" data-name="Path 1" d="M0,179.762H159.893L693.416,98h88.92v86.619H0Z" transform="translate(0.206 -98.81)" fill="#f3da40"/>
+    </g>
+  </g>
+</svg>

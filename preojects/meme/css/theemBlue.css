@@ -1,0 +1,81 @@
+
+.template3 .main-nav a, .template3 header a{color:#fff !important;  text-shadow: 0px 2px 5px rgba(0, 0, 0, .16);} 
+.main-nav.bg-white{    box-shadow: 0px 0px 3px rgb(0 0 0 / 10%);}
+header.bg-white a, .main-nav.bg-white a{color: #727da4 !important; text-shadow: none;}
+header.bg-white a:hover, 
+.main-nav.bg-white a:hover, 
+.template3 a:hover,
+header.bg-white a.active{color:#234FF1 !important;}
+.navbar-toggler label{background-color:#fff;}
+.main-nav.fixed-top .navbar-toggler label, .dashboard .navbar-toggler label{background-color:#234FF1;}
+.template3 .hero-text h1, 
+.template3 .ourBots .card:hover,  
+.template3 .ourBots .card:hover .card-title { color: #ffffff !important;}
+.template3 .btn-video-play, 
+.template3 .main-nav.fixed-top a,
+.template3 .ourBots .card-title
+.template3 .hero-text h1, 
+.template3  .section-heading,
+.template3 .ourBots .card .card-title {color: #234FF1 !important;}
+.template3 .ourBots .bg-theme .btn-theme{background-color: #fff !important; color: #234FF1 !important;}
+.template3 .ourBots { position: relative; margin-top: -10rem;}
+.template3 .ourBots .card:hover { background-color: #fff;  color: #234FF1; border-color: #234FF1;}
+.template3 .btn-theme:hover{ background-color: #fff !important;  color: #234FF1 !important; border-color: #234FF1;} 
+.template3 .bg-theme, .template3 .btn-theme {background-color: #234FF1 !important; color: #fff !important;}
+.template3 .btn-theme-outline{background-color: #ffffff !important; color: #234FF1 !important; border:1px solid #234FF1;}
+.template3 .btn-theme-outline:hover {background-color: #234FF1 !important; color: #fff !important; border-color: #fff;}
+.template3 .overlay {background-color: rgb(0 40 159 / 72%);  color: #fff; display: flex; align-items: center; justify-content: center;}
+.overlay .hero-text{color:#fff; padding: 0px 1rem;}
+.overlay p{font-size: 1.2rem; text-shadow: 0px 1px 1px rgba(0,0,0,0.4);}
+.template3 .text-theme,  
+.template3 .section-heading, 
+.template3 .booking-section .display-4, 
+ .template3 .text-theme, 
+.template3 .main-nav.fixed-top a {color: #234FF1 !important; text-shadow: none;}
+.template3 .ourBots .card:hover, 
+.template3 .ourBots .card:hover .card-title { background-color: #234FF1; color: #fff ;}
+.template3 .ourBots .card:hover .btn-theme,
+.template3 .ourBots .card:hover .btn-theme { background-color: #fff !important;  color: #234FF1 !important;} 
+.template3 .ft-social a, .template3 .card-title { color: #234FF1 !important;}
+.template3 .ft-social a:hover{color:#6080f5 !important}
+
+.template3 footer a{color: #C8D4E1 !important;}
+.template3 footer a:hover, .template3 .ourBots .bg-theme .card-title{color: #fff !important;}
+.chatBoat-header{background-color: #237cf1; color: #fff; }
+.ourBots li .card:hover .description { height: 216px; overflow: hidden;}  
+
+
+.template3 .owl-carousel .owl-item .item{margin-bottom: 0;}
+
+.drawer.open .active a::after{content: ""; position: absolute;}
+
+
+/**************** Template4 css*****************/
+.template4 header {position: absolute;}
+
+
+
+
+/****************Login css*****************/
+
+.breadcrumb-container .container{ position: relative; z-index: 2;  top: -12rem;  color: #fff;}
+.template3 .breadcrumb a {color: #727da4 !important; text-decoration: none;}
+.template3 .breadcrumb-item.active {color:#234ff1 !important;}
+.breadcrumb-item+.breadcrumb-item::before{color:#727da4; content:"➔";}
+.template3 .breadcrumb a:hover{color:#234ff1 !important; text-decoration: none;}
+
+
+.btn-share{position: absolute;top: 11px; right: 22px; color: #234FF1; border: 0px; background: #fff; font-size: 1.2rem; width: 2.2rem; height: 2.2rem; border-radius: 50%;
+    line-height: 0.5em; box-shadow: 0px 0px 4px rgba(0,0,0,0.1); display: flex; justify-content: center; align-items: center; z-index: 2; text-decoration: none;}
+.btn-share .material-icons{font-size: 1rem;}
+
+
+
+@media (max-width:991px){
+    .template3 #slideContent .left-nav a{color:#234ff1 !important;}
+}
+
+@media (max-width:575px){
+    .template3 .ourBots{margin-top: -5rem;}
+}
+
