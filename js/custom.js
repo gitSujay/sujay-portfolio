@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "lnkService": "services",
     "lnkPortfolio": "portfolio",
     "lnkContact": "contact",
+    
   };
 
   // Show home section by default
@@ -69,6 +70,34 @@ function lnkAboutMore() {
   // 4️⃣ Add "active" to the About link
   document.getElementById("lnkAbout").classList.add("active");
 }
+
+/****************************/
+
+$("#btn_show_intl_pages").click(function(e) { 
+  e.preventDefault();
+  $("#intlPages").addClass("show-details");
+  $("#portfolio").removeClass("show-details");
+  
+});
+
+$(".menu-link").click(function(){
+  $("#intlPages").removeClass("show-details");
+  $("#portfolio").addClass("show-details");
+})
+
+/**********End******************/
+
+$("#btn_show_revSite").click(function(e) { 
+  e.preventDefault();
+  $("#revsite_templet").addClass("show-details");
+  $("#portfolio").removeClass("show-details");
+  
+});
+
+$(".menu-link").click(function(){
+  $("#revsite_templet").removeClass("show-details");
+  $("#portfolio").addClass("show-details");
+})
 
 
 /***************form validation ***************************/
