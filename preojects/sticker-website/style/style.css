@@ -532,6 +532,8 @@ position: fixed;  bottom: 20px; left: 20px;  z-index: 2; background-color: var(-
   .btn-size{font-size: 16px;}
   .exit-pop-container{ max-width: 600px;}
   .exit-pop-container .left-box{padding: 20px;}
+    .d-none-mobile{display: none;}
+  .d-none-desktop{display: block;}
 
   /**********Upsell-1**************************/
   .upSell-container { max-width: 680px;  }
@@ -610,8 +612,7 @@ position: fixed;  bottom: 20px; left: 20px;  z-index: 2; background-color: var(-
   .slide-item {width: 49%; }
   .exit-pop-container .col-md-6:first-child{display: none;}
   .exit-pop-container { max-width: 80%;  }
-   .d-none-mobile{display: none;}
-  .d-none-desktop{display: block;}
+ 
 
   /*****************Upsell-1***************************/
   .col-revers-md-down{flex-direction: column-reverse; padding-top: 30px;}
