@@ -585,6 +585,7 @@ position: fixed;  bottom: 20px; left: 20px;  z-index: 2; background-color: var(-
     .sec-heading {font-size: 22px; line-height: 30px;  }
     .question{font-size: 18px;}
     .survey .options{width: 100%;}
+    .popup-container{ width: 90%;}
 
   /******************Product**************************/ 
   .banner{padding-top: 40px; padding-bottom: 40px;} 
@@ -609,6 +610,8 @@ position: fixed;  bottom: 20px; left: 20px;  z-index: 2; background-color: var(-
   .slide-item {width: 49%; }
   .exit-pop-container .col-md-6:first-child{display: none;}
   .exit-pop-container { max-width: 80%;  }
+   .d-none-mobile{display: none;}
+  .d-none-desktop{display: block;}
 
   /*****************Upsell-1***************************/
   .col-revers-md-down{flex-direction: column-reverse; padding-top: 30px;}
