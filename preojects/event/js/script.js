@@ -71,3 +71,39 @@ $(window).scroll(function () {
   }
 });
 
+//-----------Reverse counter----------------------//
+ (() => {
+  // start at 9:59
+  let totalSeconds = 10 * 60 - 1; // 599
+
+  const exitTimeCounter = document.getElementById("exitOffer");
+  if (!exitTimeCounter) { console.error("exitOffer element not found"); return; }
+
+  let extTimerId = null;
+
+  function updateExitTimer() {
+    if (totalSeconds >= 0) {
+      const minutes = Math.floor(totalSeconds / 60);
+      const seconds = totalSeconds % 60;
+
+      const m = String(minutes).padStart(1, "0"); // use 2 if you want 09:59
+      const s = String(seconds).padStart(2, "0");
+
+      exitTimeCounter.textContent = `${m}:${s}`;
+      totalSeconds--;
+    } else {
+      clearInterval(extTimerId);
+      exitTimeCounter.textContent = "0:00"; // or "Time's up!"
+    }
+  }
+
+  updateExitTimer();                // show immediately
+  extTimerId = setInterval(updateExitTimer, 1000);
+})(); 
+
+document.querySelector(".close-poup").addEventListener("click", function (e) {
+    e.preventDefault(); // stop page jump
+    document.getElementById("extTabPopup").classList.remove("showExitPopup");
+});
+
+
